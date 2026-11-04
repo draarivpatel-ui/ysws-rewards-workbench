@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A private, exact budget workbench for real hardware quotes.">
+  <title>Grant BOM Workbench</title>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header><h1>Grant BOM Workbench</h1><p>Plan a real hardware order with exact integer-cent arithmetic. All data stays in this page until you download it.</p></header>
+  <main>
+    <details><summary>What this tool does and does not verify</summary><p>Enter actual supplier quotes yourself. Prices are not fetched or verified. A budget under a program cap is not approval. No manufacturing, human work hours, grant payment or shipping is claimed.</p><p>The default cap is the published USD 35 limit for the 8-Pin Grant. PCB design, KiCad checks, an honest journal and organizer approval are separate requirements.</p></details>
+    <form id="row-form">
+      <fieldset><legend>Add a quoted item</legend>
+        <p><label for="part-number">Manufacturer part number</label> <input id="part-number" required maxlength="80"></p>
+        <p><label for="description">Short description</label> <input id="description" required maxlength="180"></p>
+        <p><label for="quantity">Total order quantity</label> <input id="quantity" type="number" min="1" max="10000" value="1" required></p>
+        <p><label for="unit-price">Price per unit in USD</label> <input id="unit-price" inputmode="decimal" placeholder="Enter your quote" required></p>
+        <p><label for="supplier">Supplier</label> <select id="supplier"><option>DigiKey</option><option>Mouser</option><option>OSH Park</option></select></p>
+        <p><label for="quote-url">Public quote or product URL</label> <input id="quote-url" type="url" placeholder="https://" required></p>
+        <p><label for="quoted-on">Date you checked the quote</label> <input id="quoted-on" type="date" required></p>
+        <button>Add item</button>
+      </fieldset>
+    </form>
+    <table><caption>Quoted items, quantities for the entire order</caption><thead><tr><th scope="col">Part</th><th scope="col">Description</th><th scope="col">Quantity</th><th scope="col">USD per unit</th><th scope="col">Source</th><th scope="col">Action</th></tr></thead><tbody id="rows"></tbody></table>
+    <form id="budget-form"><fieldset><legend>Complete the order budget</legend>
+      <p><label for="shipping">Shipping USD</label> <input id="shipping" inputmode="decimal" placeholder="Enter 0 if actually free" required></p>
+      <p><label for="tax">Tax USD</label> <input id="tax" inputmode="decimal" placeholder="Enter 0 if actually exempt" required></p>
+      <p><label for="cap">Budget cap USD</label> <input id="cap" inputmode="decimal" value="35.00" required></p>
+      <button>Calculate budget</button>
+    </fieldset></form>
+    <section aria-labelledby="result-heading"><h2 id="result-heading">Budget result</h2><p id="status" role="status" aria-live="polite">No prices have been entered.</p><output id="result" for="shipping tax cap"></output></section>
+    <p><button id="download" type="button" disabled>Download budget JSON</button></p>
+    <p><label for="import-file">Import a previous budget JSON</label> <input id="import-file" type="file" accept="application/json,.json"></p>
+  </main>
+  <footer><p>AI-assisted software. No personal contacts, street addresses, named institutions or account secrets belong in this budget. No CSS, canvas, tracking, accounts or external libraries are used.</p></footer>
+</body>
+</html>

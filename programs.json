@@ -1,0 +1,3333 @@
+{
+  "schema_version": 1,
+  "as_of_local_date": "2026-11-04",
+  "timezone": "America/Chicago",
+  "directory_fetched_at_utc": "2026-11-05T01:55:43.654850+00:00",
+  "directory_server_date": "Thu, 05 Nov 2026 01:55:44 GMT",
+  "coverage": {
+    "hackclub_directory_current": 48,
+    "devpost_open_online": 48,
+    "devpost_upcoming_online": 36,
+    "external_offers_and_exclusions": 19
+  },
+  "scope_limit": "Complete coverage of the captured official Hack Club current directory and the captured Devpost open/upcoming online feeds; not a claim that every worldwide grant was discoverable or that every listed program is eligible for this entrant.",
+  "hackclub": [
+    {
+      "id": "8-pin-grant",
+      "directory_id": "rec79bsTmd66KuBYg",
+      "name": "8-pin-grant",
+      "url": "https://8-pin-grant.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-18",
+      "end_date": "2026-11-20",
+      "format": null,
+      "directory_description": "Design a custom circuit board with an 8-pin microcontroller and get it fabricated!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "manual-journal",
+      "time_requirement": "At least 7 genuine project hours for the full grant, documented by a GitHub journal. No Hackatime requirement is specified on the rules page.",
+      "ai_policy": "not-established",
+      "artifact": "KiCad files for a two-layer PCB using an 8-pin MCU, manufacturer-part-number BOM, allowed-supplier budget and programming access; after fabrication, working code and a demonstration video.",
+      "reward": "Up to $35 of parts and boards plus programming tools after approval. US orders use DigiKey/Mouser and OSH Park; outside the US, the page describes a grant card. Not a cash prize for submitting.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": "https://forms.hackclub.com/8-pin-grant",
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "8-pin-grant"
+      ],
+      "evidence": [
+        {
+          "source": "8-pin-grant",
+          "quote": "Track your time in your GitHub repository by journaling"
+        },
+        {
+          "source": "8-pin-grant",
+          "quote": "you must spend at least 7 hours"
+        }
+      ]
+    },
+    {
+      "id": "asic",
+      "directory_id": "recpUpez1ndcIEuLt",
+      "name": "ASIC",
+      "url": "https://asic.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-29",
+      "end_date": "2026-11-30",
+      "format": "online",
+      "directory_description": "Design a chip, we'll manufacture it and send you tools to test it.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "independent-review",
+      "time_requirement": "Design and write-up first; hardware validation before chip submission. End-of-November design deadline. This is not an agent-buildable entry.",
+      "ai_policy": "banned",
+      "artifact": "Student-authored Tiny Tapeout GF180 design, student-authored tests and write-up, then real FPGA validation before the shared chip application.",
+      "reward": "An FPGA board and logic analyzer for an approved design; subsequently a shared chip and breakout board for accepted, physically validated entries.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "asic",
+        "asic-resources",
+        "asic-writeup",
+        "asic-submission"
+      ],
+      "evidence": [
+        {
+          "source": "asic",
+          "quote": "we'll send you an FPGA board and logic analyzer"
+        }
+      ]
+    },
+    {
+      "id": "atlantis",
+      "directory_id": "rec1l4Rvwv48G91iM",
+      "name": "Atlantis",
+      "url": "https://atlantis.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-21",
+      "end_date": "2026-11-16",
+      "format": "online",
+      "directory_description": "Ship 5 hours of CAD each week and get a 3D printer!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "timelapse",
+      "time_requirement": "5 hours of genuine CAD each week for 8 weeks, recorded with timelapses. A fresh entrant cannot assume earlier weeks can be backfilled before the November 16 directory end date.",
+      "ai_policy": "not-established",
+      "artifact": "Weekly CAD projects and their original timelapse evidence; complete the cohort requirements.",
+      "reward": "Base printer choices advertised are Bambu A1 Mini, Creality Ender 3 V3 SE, Elegoo Neptune 4, or a $250 printer grant; more work can change the tier.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "atlantis"
+      ],
+      "evidence": [
+        {
+          "source": "atlantis",
+          "quote": "We track time using timelapses!"
+        },
+        {
+          "source": "atlantis",
+          "quote": "5 hours of CAD a week for 8 weeks"
+        }
+      ]
+    },
+    {
+      "id": "bakebuild",
+      "directory_id": "reck8PI9qm56lEOOQ",
+      "name": "BakeBuild",
+      "url": "https://bakebuild.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2025-01-10",
+      "end_date": null,
+      "format": "both",
+      "directory_description": "Create a CAD model of a cookie cutter and get a 3D printed version plus cookies!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "The current client bundle advertises a nohackatime asset, but a complete timing/originality rule was not established from readable text. Confirm the form before treating this as an unrestricted direct grant.",
+      "ai_policy": "not-established",
+      "artifact": "A custom cookie cutter CAD model, exported as STEP following the guide. Any CAD software is advertised as accepted, with Onshape preferred.",
+      "reward": "Approved printed cookie cutters and cookies. The current bundle says there are no filament grants for self-printing.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": "https://forms.hackclub.com/t/cecBQMan6Jus",
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "bakebuild",
+        "bakebuild-bundle"
+      ],
+      "evidence": [
+        {
+          "source": "bakebuild-bundle",
+          "quote": "Any CAD software accepted, but Onshape preferred!"
+        },
+        {
+          "source": "bakebuild-bundle",
+          "quote": "no filament grants tho"
+        }
+      ]
+    },
+    {
+      "id": "boba-drops",
+      "directory_id": "rec0qFHAlOpZPuMFV",
+      "name": "Boba Drops",
+      "url": "https://boba.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2024-04-14",
+      "end_date": null,
+      "format": "both",
+      "directory_description": "Build a personal website, earn $5 for boba!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Individuals must be US-based; official club workshops can be worldwide.",
+      "tracking": "independent-review",
+      "time_requirement": "Artifact-based published requirements, not a Hackatime-hour threshold. Individual route is US-only; clubs can run workshops worldwide.",
+      "ai_policy": "banned",
+      "artifact": "A unique hand-written HTML/CSS website, GitHub Pages hosting, at least 5 HTML/CSS features including CSS and an image. No JavaScript. Submit the website form.",
+      "reward": "$5 per approved website for boba. This campaign already reports an earlier approval; do not submit a duplicate claim.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": "https://forms.hackclub.com/boba-website",
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "boba",
+        "boba-individual",
+        "boba-requirements"
+      ],
+      "evidence": [
+        {
+          "source": "boba-requirements",
+          "quote": "No AI. Websites must be hand-written."
+        },
+        {
+          "source": "boba-requirements",
+          "quote": "HTML & CSS only. No JavaScript"
+        },
+        {
+          "source": "boba-individual",
+          "quote": "US-based participants aged 13"
+        }
+      ]
+    },
+    {
+      "id": "chipper",
+      "directory_id": "recp9JGAi4IXDC7Hj",
+      "name": "Chipper",
+      "url": "https://chipper.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-10",
+      "format": "online",
+      "directory_description": "Spend a weekend on a simple little emulator, earn a hackable handheld console!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "10 Hackatime hours for the base reward; 25 for the alternate device; 30 for both. Excluded from the non-Hackatime build lane.",
+      "ai_policy": "assistance-only",
+      "artifact": "A working base CHIP-8 interpreter/emulator with genuine handwritten code.",
+      "reward": "Thumby Color at the base tier; LILYGO T-Deck Max at 25 hours, both at 30, subject to review.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "chipper"
+      ],
+      "evidence": [
+        {
+          "source": "chipper",
+          "quote": "Use Hackatime."
+        },
+        {
+          "source": "chipper",
+          "quote": "you should be handwriting your code"
+        },
+        {
+          "source": "chipper",
+          "quote": "at least 10 hours"
+        }
+      ]
+    },
+    {
+      "id": "club-shop",
+      "directory_id": "recGbfov976IrojBD",
+      "name": "Club Shop",
+      "url": "https://clubs.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-07",
+      "end_date": null,
+      "format": "in-person",
+      "directory_description": "Don't run your programming club alone, make it a Hack Club! Run workshops, ship projects, get rewards with friends for free!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Requires a real official Hack Club and qualifying club activity.",
+      "tracking": "program-specific",
+      "time_requirement": "Requires a real official Hack Club. Workshop and reward conditions vary; a general membership or account is not a reward claim.",
+      "ai_policy": "program-specific",
+      "artifact": "Actual approved club workshops and member projects, submitted through the clubs platform.",
+      "reward": "Club-shop rewards for qualifying club activity, not guaranteed personal cash.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "club-shop",
+        "club-shop-rules"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "contd",
+      "directory_id": "recy2Nf1NAbpj5peN",
+      "name": "contd",
+      "url": "https://contd.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-21",
+      "end_date": "2026-12-01",
+      "format": "online",
+      "directory_description": "continue someone else's program",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "Hackatime hours and reviewer approval. One original project must be approved into the pool before the remake is shipped.",
+      "ai_policy": "limited-assistance",
+      "artifact": "A meaningful remake or continuation, public repo, persistent live demo, and genuine tracked hours; recoloring alone is insufficient.",
+      "reward": "Approved remakes can select AI-credit, domain or hardware grants; the page says details are still being developed.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "contd"
+      ],
+      "evidence": [
+        {
+          "source": "contd",
+          "quote": "Through Hackatime."
+        },
+        {
+          "source": "contd",
+          "quote": "AI can make up to 30% of your project"
+        }
+      ]
+    },
+    {
+      "id": "coral",
+      "directory_id": "recTqXI9ZmsI2Q8Tq",
+      "name": "Coral",
+      "url": "https://coral.hackclub.com?ref=programs",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-10",
+      "end_date": "2027-02-28",
+      "format": "both",
+      "directory_description": "Create a project, earn shells, and camp out on a beach in Australia!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "The directory advertises technical projects; full artifact and timing rules were not established from the client-rendered public page.",
+      "reward": "Shell-based project rewards and a possible beach event in Australia are advertised. No exact qualifying threshold or guaranteed ticket was verified.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "coral"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "crescent",
+      "directory_id": "rece79v98ulzks740",
+      "name": "Crescent",
+      "url": "https://crescent.hackclub.com/?utm_source=programs",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-21",
+      "end_date": "2026-11-22",
+      "format": null,
+      "directory_description": "Four different challenges each week - pick a card, then ship something!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hours-method-not-established",
+      "time_requirement": "Hour-based rewards and weekly challenge cards are advertised; the landing page alone did not establish the exact tracking method.",
+      "ai_policy": "not-established",
+      "artifact": "A public technical project matching a chosen card or wildcard; no paid work or coursework.",
+      "reward": "A changing shop of books, domains/credits and hardware, conditional on reviewed work and current prices.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "crescent"
+      ],
+      "evidence": [
+        {
+          "source": "crescent",
+          "quote": "The more hours you log, the better your prizes are!"
+        }
+      ]
+    },
+    {
+      "id": "cubed",
+      "directory_id": "reckwvYzuSvwCsY1O",
+      "name": "Cubed",
+      "url": "https://cubed.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-12",
+      "end_date": "2026-11-09",
+      "format": "online",
+      "directory_description": "Ship a science related project, get science stuff.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A deployed science-related software project, source and tracked time. The FAQ clarifies software only despite older hardware wording.",
+      "reward": "Science-related shop prizes after review; exact reward selection must be checked in the portal.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "cubed"
+      ],
+      "evidence": [
+        {
+          "source": "cubed",
+          "quote": "track your time using hackatime"
+        },
+        {
+          "source": "cubed",
+          "quote": "Software only, so no hardware projects"
+        }
+      ]
+    },
+    {
+      "id": "embassy",
+      "directory_id": "recQq7MqVx468nleJ",
+      "name": "Embassy",
+      "url": "https://embassy.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-11",
+      "end_date": "2026-11-30",
+      "format": null,
+      "directory_description": "Get a custom-made, personalized Hack Club Passport & ID to collect & bring to events. Fully compatible with Attend Check-In.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hours-method-not-established",
+      "time_requirement": "At least 7 genuine hours; exact tracking method and AI policy were not established on the public FAQ.",
+      "ai_policy": "not-established",
+      "artifact": "An identity-related project created and shipped in the Embassy platform.",
+      "reward": "An approved project can earn a physical Hack Club passport and/or ID. Do not put shipping or identity documents in the public project.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "embassy"
+      ],
+      "evidence": [
+        {
+          "source": "embassy",
+          "quote": "at least 7 hours"
+        },
+        {
+          "source": "embassy",
+          "quote": "Approved projects can earn"
+        }
+      ]
+    },
+    {
+      "id": "expedition",
+      "directory_id": "recPYFw3Ke9CQu36h",
+      "name": "Expedition",
+      "url": "https://expedition.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-10",
+      "end_date": "2026-11-27",
+      "format": null,
+      "directory_description": "EARN YOUR WAY TO IRELAND THIS DECEMBER OVERNIGHT HACKETHON 4TH-6TH",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hours-method-not-established",
+      "time_requirement": "Genuine work with a screenshot/video and an update every 5 hours. Exact tracking integration must be checked in the public guide/portal.",
+      "ai_policy": "not-established",
+      "artifact": "A real software, hardware, game or other technical project with progress checkpoints.",
+      "reward": "Hour-unlocked gear or travel grants; the published overnight event is December 4 to 6, not an automatic travel award.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "expedition"
+      ],
+      "evidence": [
+        {
+          "source": "expedition",
+          "quote": "Every 5 hours, show what happened."
+        }
+      ]
+    },
+    {
+      "id": "fabricate",
+      "directory_id": "rec5iSFpXM8jLLgDQ",
+      "name": "Fabricate",
+      "url": "https://fabricate.hackclub.com/?utm_source=programs_page",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-30",
+      "end_date": "2026-12-31",
+      "format": "online",
+      "directory_description": "Design a hardware project and we'll pay for it",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "The directory advertises a hardware design to be funded; complete budget, timing and AI rules were not established on the client-rendered landing page.",
+      "reward": "Hardware project funding, subject to specific review and current terms; no amount is inferred.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "fabricate"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fallen",
+      "directory_id": "recHKyWxg4jwaPMMb",
+      "name": "Fallen",
+      "url": "https://fallen.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-18",
+      "end_date": "2026-12-14",
+      "format": "both",
+      "directory_description": "Build your dream hardware project for free, present it in Shenzhen, China.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "Hardware design/build evidence; detailed hours, funding and event conditions were not established from readable public text.",
+      "reward": "Hardware funding and a possible Shenzhen presentation are advertised, not a verified guaranteed trip.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "fallen"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "flavorless",
+      "directory_id": "recXHambOhVVD95X5",
+      "name": "flavorless",
+      "url": "https://flavorless.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-05-01",
+      "end_date": "2027-07-02",
+      "format": "online",
+      "directory_description": "Build a functional website without any CSS and show off your unique style!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Official club membership and workshop/project shipping are required.",
+      "tracking": "independent-review",
+      "time_requirement": "The published requirement list is feature-based and club-only; no hour threshold is stated there. Verify final workshop portal conditions.",
+      "ai_policy": "not-established",
+      "artifact": "A complete useful website with no CSS, inline styles or canvas. At least 5 unique HTML features; adding a JavaScript function enables the higher tier. Official club membership and clubs-platform shipping are required.",
+      "reward": "$3 for an approved 5-feature HTML site, or $5 with JavaScript functionality, for a club pizza/snack party.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "flavorless"
+      ],
+      "evidence": [
+        {
+          "source": "flavorless",
+          "quote": "5+ html and 1+ javascript function to earn $5 per website"
+        },
+        {
+          "source": "flavorless",
+          "quote": "you must be part of a official Hack Club!"
+        }
+      ]
+    },
+    {
+      "id": "folktale",
+      "directory_id": "recdoooA19NZG8uMU",
+      "name": "Folktale",
+      "url": "https://folktale.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-18",
+      "end_date": null,
+      "format": "online",
+      "directory_description": "Learn Python, Make a Game, Get Free Stickers!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "banned",
+      "artifact": "A student-written Python text adventure following the program's guide and submission flow. Do not generate an entry with an agent.",
+      "reward": "An approved game earns a custom sticker sheet. Referral rewards have separate real-referral/view requirements.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "folktale"
+      ],
+      "evidence": [
+        {
+          "source": "folktale",
+          "quote": "refrain from all AI usage"
+        }
+      ]
+    },
+    {
+      "id": "forge",
+      "directory_id": "recA2JkklCDLyH73d",
+      "name": "Forge",
+      "url": "https://forge.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-11",
+      "end_date": "2027-01-01",
+      "format": null,
+      "directory_description": "Design and build hardware projects - get funding and a ticket to Hackaday Supercon 2026",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "Hardware design/build project; full budget, hours, AI and current event requirements are not established from readable landing-page text.",
+      "reward": "The official directory advertises funding and a Hackaday Supercon ticket. No amount, shipping or guaranteed ticket is inferred.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "forge"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "fusering",
+      "directory_id": "recztdSQknAhw5LTu",
+      "name": "FuseRing",
+      "url": "https://fusering.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2025-08-20",
+      "end_date": null,
+      "format": "both",
+      "directory_description": "Design a keyring and get your creation plus a carabiner to hang it!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "independent-review",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "banned",
+      "artifact": "Original vector artwork and a high-effort CAD keyring uploaded to Printables. Flat bottom, maximum 80 by 80 by 6 mm; identity verification or an actual workshop.",
+      "reward": "Printed keyring, carabiner and stickers after approval. The campaign reports an earlier rejection; that is not a pending guaranteed award.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": "https://submit.hackclub.com/fusering-v2",
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "fusering"
+      ],
+      "evidence": [
+        {
+          "source": "fusering",
+          "quote": "This means no using AI too."
+        },
+        {
+          "source": "fusering",
+          "quote": "flat bottom"
+        }
+      ]
+    },
+    {
+      "id": "genesis-reborn",
+      "directory_id": "recVf8xItyhg8Y4wE",
+      "name": "Genesis Reborn",
+      "url": "https://genesis.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-23",
+      "end_date": "2026-12-16",
+      "format": "online",
+      "directory_description": "Make an operating system from scratch, get compute to run it on!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "The directory advertises a from-scratch operating system; detailed artifact, time and AI requirements were not established on the public entry page.",
+      "reward": "Compute to run an accepted operating system; exact quotas and approval requirements are not verified.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "genesis-reborn"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "goship",
+      "directory_id": "recNMKvfpEYyxOvc2",
+      "name": "Goship",
+      "url": "https://goship.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "directory-ongoing-timing-conflict",
+      "start_date": "2026-10-01",
+      "end_date": "2027-01-08",
+      "format": "online",
+      "directory_description": "ship a Go Project, get a gopher plushie",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "At least 5 Hackatime hours. The page lists September 27 to November 8 and a November 1 time cutoff, while the official directory ends January 8. Treat that conflict as a blocker for new work until clarified.",
+      "ai_policy": "limited-assistance",
+      "artifact": "An original Go project, public source, proper build/run README and either a live website or release binary.",
+      "reward": "A Gopher plushie after qualifying review.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "goship"
+      ],
+      "evidence": [
+        {
+          "source": "goship",
+          "quote": "5 hours tracked on Hackatime"
+        },
+        {
+          "source": "goship",
+          "quote": "up to 30% of your code"
+        },
+        {
+          "source": "goship",
+          "quote": "until November 1st will be counted"
+        }
+      ]
+    },
+    {
+      "id": "grandma",
+      "directory_id": "recSQcSJh8jAKk2ls",
+      "name": "Grandma",
+      "url": "https://grandma.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-14",
+      "end_date": "2026-11-30",
+      "format": "online",
+      "directory_description": "Nitpicky Grandma has impossible demands. You ship the project anyway. She pays in cookies.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hours-method-not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "limited-assistance",
+      "artifact": "Public software following an assigned demand, with genuine new work. The exact tracker must be confirmed in the guide.",
+      "reward": "Hour/tier-based shop rewards, with one-per-person limits on some items; no current guaranteed hardware value is inferred.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "grandma"
+      ],
+      "evidence": [
+        {
+          "source": "grandma",
+          "quote": "AI must strictly be under 30% of total time"
+        },
+        {
+          "source": "grandma",
+          "quote": "the same hours cannot be paid twice"
+        }
+      ]
+    },
+    {
+      "id": "hackcraft-mod-edition",
+      "directory_id": "recE2drMuGXUWJi3L",
+      "name": "Hackcraft Mod Edition",
+      "url": "https://hackcraft.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2024-10-21",
+      "end_date": "2026-12-31",
+      "format": "online",
+      "directory_description": "Create a Minecraft mod, earn a free game and server hosting!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A Minecraft mod and required project/release evidence. Detailed current time and AI conditions were not established from the checked page.",
+      "reward": "The official directory advertises a free game and server hosting after qualifying work; not a general account giveaway.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "hackcraft"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "hackrail",
+      "directory_id": "rec5S2LK4Of57qe3y",
+      "name": "Hackrail",
+      "url": "https://rail.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-28",
+      "end_date": "2026-11-30",
+      "format": "online",
+      "directory_description": "Ship projects that use open train data, get train passes and tickets!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A technical project, ideally using open train data. The public FAQ allows other themes at different tiers; exact tracking and tier rules live in the platform/channel.",
+      "reward": "Train-ticket/pass grants; regional reward availability is explicitly not universal.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "hackrail"
+      ],
+      "evidence": [
+        {
+          "source": "hackrail",
+          "quote": "we might not have prizes for your region"
+        },
+        {
+          "source": "hackrail",
+          "quote": "30th of nov 2026"
+        }
+      ]
+    },
+    {
+      "id": "hacktank",
+      "directory_id": "recx7UqC7A5JKJSRq",
+      "name": "HackTank",
+      "url": "https://hacktank.hackclub.com?ref=programs",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-02",
+      "end_date": "2027-02-28",
+      "format": null,
+      "directory_description": "create your product, go viral, pitch to VCs in San Francisco",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A product, promotion and pitch are advertised; actual virality thresholds, timing and AI conditions were not established.",
+      "reward": "A possible pitch/event opportunity, not a verified guaranteed participation gift.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "hacktank"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "half-life",
+      "directory_id": "recMbhE93XPc0hrZC",
+      "name": "Half Life",
+      "url": "https://halflife.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-05",
+      "end_date": "2026-12-14",
+      "format": "online",
+      "directory_description": "become a hardware expert in 10 weeks, get a 3D printer",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "weekly-work-method-not-established",
+      "time_requirement": "Five design weeks followed by five build weeks. A late joiner must obtain actual cohort guidance; no backfilled work is assumed.",
+      "ai_policy": "not-established",
+      "artifact": "Five themed hardware projects, genuine design/build evidence and approved funding requests.",
+      "reward": "Up to $100 per hardware project and an advertised printer for completing the full ten weeks. Extra virality rewards require real views/engagement.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "half-life"
+      ],
+      "evidence": [
+        {
+          "source": "half-life",
+          "quote": "Up to $100 of funding per project"
+        },
+        {
+          "source": "half-life",
+          "quote": "finishing all ten weeks"
+        }
+      ]
+    },
+    {
+      "id": "haven",
+      "directory_id": "recFZK43eiey2rDUf",
+      "name": "Haven",
+      "url": "https://haven.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-21",
+      "end_date": "2026-11-15",
+      "format": "in-person",
+      "directory_description": "A worldwide game jam happening in 250+ cities on November 14th & 15th. Learn to make games from scratch - no experience needed. Find an event in your city!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Actual in-person event participation and signed parental consent, not an online claim.",
+      "tracking": "in-person-event",
+      "time_requirement": "The actual game jam is November 14 to 15. This is an in-person event, not an online guaranteed-hardware claim.",
+      "ai_policy": "not-established",
+      "artifact": "A game made at an eligible local event, real attendance and required parental consent.",
+      "reward": "Free event participation/food and event-specific prizes. No mailed participation reward is verified.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "haven"
+      ],
+      "evidence": [
+        {
+          "source": "haven",
+          "quote": "age 13"
+        },
+        {
+          "source": "haven",
+          "quote": "free food"
+        }
+      ]
+    },
+    {
+      "id": "mipmap",
+      "directory_id": "recnGypJu0F781i1A",
+      "name": "Mipmap",
+      "url": "https://mipmap.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-08",
+      "end_date": "2026-11-20",
+      "format": "online",
+      "directory_description": "Make a game without an engine, earn prizes down your Tech Tree!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "limited-assistance",
+      "artifact": "An engine-less game in a supported graphics tier, public source/playable build and genuine tracked work.",
+      "reward": "Mips-based technical-tree rewards after review; prices/tier multipliers change.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "mipmap"
+      ],
+      "evidence": [
+        {
+          "source": "mipmap",
+          "quote": "link your Hackatime account"
+        },
+        {
+          "source": "mipmap",
+          "quote": "retyping the code of an entire project that an LLM put out isn't allowed"
+        }
+      ]
+    },
+    {
+      "id": "paper-clip",
+      "directory_id": "rectMCKqCrwfa13VZ",
+      "name": "Paper Clip",
+      "url": "https://paperclip.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-05",
+      "end_date": "2026-11-14",
+      "format": "online",
+      "directory_description": "Draw your own Assets, get Art Supplies!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "The directory advertises a project with original drawn assets; full drawing/time/originality requirements were not established.",
+      "reward": "Art supplies after qualifying review; do not generate purported hand-drawn student art.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "paper-clip"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "phantom",
+      "directory_id": "reccvcg8xwa04ntOH",
+      "name": "Phantom",
+      "url": "https://phantom.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-09",
+      "end_date": "2027-03-12",
+      "format": "both",
+      "directory_description": "Build creative projects for 50 hours, then fly to an escape room hackathon in Philadelphia",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hours-method-not-established",
+      "time_requirement": "The public page advertises 50 genuine project hours to qualify; exact tracker and travel approval remain unverified.",
+      "ai_policy": "not-established",
+      "artifact": "A creative project with genuine work evidence, followed by separately approved event participation.",
+      "reward": "Fragments/shop rewards and a possible escape-room hackathon trip; no automatic travel grant is established.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "phantom"
+      ],
+      "evidence": [
+        {
+          "source": "phantom",
+          "quote": "50 hours"
+        }
+      ]
+    },
+    {
+      "id": "pixl",
+      "directory_id": "reccEhEip54tdslFu",
+      "name": "Pixl",
+      "url": "https://pixl.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-18",
+      "end_date": "2026-12-31",
+      "format": "online",
+      "directory_description": "Create hardware and software sidequests in an open world, earn unique prizes along the way!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hours-method-not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "Reviewed software/hardware trials or a real independent project, source and genuine hours. The public page still labels some features and example rewards as coming soon.",
+      "reward": "Pixel/Restoration Energy shop grants and prizes. Examples are not fixed promises; the page explicitly says prices vary and change.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "pixl"
+      ],
+      "evidence": [
+        {
+          "source": "pixl",
+          "quote": "Examples only. Shop prices vary by region and change over time."
+        }
+      ]
+    },
+    {
+      "id": "player-two",
+      "directory_id": "recSLEhdZRO62F7S1",
+      "name": "Player Two",
+      "url": "https://playertwo.hackclub.com/?ref=programs-page",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-13",
+      "format": "online",
+      "directory_description": "Teach a model to play, get video games to play with your friends!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "limited-assistance",
+      "artifact": "A game authored by the entrant, a genuinely trained learning model, playable opponent, public repo and training README. A handwritten rules bot is explicitly insufficient.",
+      "reward": "Game-shop tokens based on qualifying reviewed hours, not an automatic free game for any bot.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "player-two"
+      ],
+      "evidence": [
+        {
+          "source": "player-two",
+          "quote": "time Hackatime marks as AI coding counts for a third"
+        },
+        {
+          "source": "player-two",
+          "quote": "A bot with hand-written rules does not count."
+        }
+      ]
+    },
+    {
+      "id": "re-dream",
+      "directory_id": "recRgiNUt71wfH9NF",
+      "name": "Re-Dream",
+      "url": "https://re-dream.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-07-17",
+      "end_date": null,
+      "format": "online",
+      "directory_description": "Make your dream game come to life!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A game is advertised; full current entry, timing, AI and reward requirements were not established from readable public text.",
+      "reward": "No precise reward or unconditional participation benefit verified.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "re-dream"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "shredder",
+      "directory_id": "recnAjWy3fDFaWxzz",
+      "name": "Shredder",
+      "url": "https://shredder.hackclub.com/",
+      "directory_status": "upcoming",
+      "state": "upcoming-by-start-date",
+      "start_date": "2026-11-16",
+      "end_date": "2027-03-31",
+      "format": null,
+      "directory_description": "No description supplied by the directory.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "The page advertises a rhythm game; full rules are not established. The official directory start is November 16, so this is not open for an immediate build claim.",
+      "reward": "Rhythm-game-related rewards are not specified in the readable public source.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "shredder"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "snek",
+      "directory_id": "recbTHmv1Curu4AJT",
+      "name": "Snek",
+      "url": "https://snek.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-06",
+      "end_date": "2026-11-06",
+      "format": "online",
+      "directory_description": "learn pygame and get stickers, plushies, drawing tablets and other prizesss.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "asset-ai-banned-code-not-established",
+      "artifact": "A Pygame .exe with at least 2 added features. Original/licensed asset packs, no AI assets.",
+      "reward": "Reviewed coding-time tiers advertise sticker sheets, necklaces, plushies and drawing tablets.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "snek"
+      ],
+      "evidence": [
+        {
+          "source": "snek",
+          "quote": "Track your coding time via Hackatime"
+        },
+        {
+          "source": "snek",
+          "quote": "no AI!"
+        }
+      ]
+    },
+    {
+      "id": "snowglobe",
+      "directory_id": "recNtJtI05pqbqmgO",
+      "name": "Snowglobe",
+      "url": "https://snowglobe.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-08-29",
+      "end_date": "2026-11-22",
+      "format": "both",
+      "directory_description": "Code 50 hours and go to San Francisco for the largest all girls hackathon!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Girls/girl-identifying participants only.",
+      "tracking": "verified-hours-method-not-established",
+      "time_requirement": "50 verified coding hours on the current page, not the older 40-hour catalog description.",
+      "ai_policy": "not-established",
+      "artifact": "Projects and verified genuine work, plus approved event/travel participation. Restricted to girls/girl-identifying teens aged 13 to 18.",
+      "reward": "Free qualifying event participation and separately available travel/shop support, not an unconditional mailed prize. Public event dates are November 20 to 22.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "snowglobe"
+      ],
+      "evidence": [
+        {
+          "source": "snowglobe",
+          "quote": "50 verified hours"
+        },
+        {
+          "source": "snowglobe",
+          "quote": "teen girl or girl-identifying"
+        }
+      ]
+    },
+    {
+      "id": "sprig",
+      "directory_id": "recfEBqFDf4NGjY4y",
+      "name": "Sprig",
+      "url": "https://sprig.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2022-07-14",
+      "end_date": null,
+      "format": "both",
+      "directory_description": "Build a JS game and play it on your own console!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "independent-review",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "primarily-human",
+      "artifact": "An original Sprig-editor game with at least one minute of gameplay, gallery PR and human review. Games must primarily be created by the person submitting them.",
+      "reward": "One console kit per approved game/PR, including group games. Shipping exclusions/customs can apply. The old campaign PR is not an owed kit.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": "https://github.com/hackclub/sprig/pulls",
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "sprig",
+        "sprig-rules",
+        "sprig-guide"
+      ],
+      "evidence": [
+        {
+          "source": "sprig-guide",
+          "quote": "Substantially AI-generated games may not be approved."
+        },
+        {
+          "source": "sprig-rules",
+          "quote": "minimum of 1 min of gameplay"
+        }
+      ]
+    },
+    {
+      "id": "swirl",
+      "directory_id": "rec1Ol3PIQCvbriVj",
+      "name": "Swirl",
+      "url": "https://swirl.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2025-03-27",
+      "end_date": null,
+      "format": "online",
+      "directory_description": "Build a Website Get Free Ice Cream!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Current page says clubs only; the requirements also exclude previous Swirl grant recipients.",
+      "tracking": "independent-review-advertised",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "banned",
+      "artifact": "An original recent three-page static HTML/CSS website, favicon/title, image and at least one scoop (3 extra unique HTML/CSS features). No frameworks; JavaScript is optional and cannot be the focal point. A previous Boba entry must be genuinely expanded.",
+      "reward": "$5 for one scoop, $7 for two, $9 for three or more, after approval. One prior Swirl grant excludes another.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "swirl",
+        "swirl-requirements"
+      ],
+      "evidence": [
+        {
+          "source": "swirl-requirements",
+          "quote": "No AI is permitted in any way"
+        }
+      ]
+    },
+    {
+      "id": "taiyaki",
+      "directory_id": "recGvUqkCCS1sUJEe",
+      "name": "Taiyaki",
+      "url": "https://taiyaki.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-06",
+      "end_date": "2027-02-27",
+      "format": null,
+      "directory_description": "No description supplied by the directory.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "The official directory has no description and the readable page does not establish a complete artifact requirement.",
+      "reward": "Not established. An ongoing directory flag is not a verified reward promise.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "taiyaki"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "terra",
+      "directory_id": "recBr3EcgTa1ALLmR",
+      "name": "Terra",
+      "url": "https://terra.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-28",
+      "end_date": "2027-01-10",
+      "format": "online",
+      "directory_description": "Code each week, grow your farm, get a laptop!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime-and-lapse",
+      "time_requirement": "12 required weekly periods with at least 10 hours each, beginning October 19 and ending January 10; prep-week and skip mechanics have separate conditions. Do not backfill missing weeks.",
+      "ai_policy": "not-established",
+      "artifact": "Real shipped technical projects, genuine tracked code/art work and the weekly game/cohort requirements.",
+      "reward": "Framework laptop or regional laptop grant after qualifying full-cohort work; alternate upgrades are advertised. No immediate laptop claim is valid.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "terra",
+        "terra-bundle"
+      ],
+      "evidence": [
+        {
+          "source": "terra-bundle",
+          "quote": "survive 12 weeks"
+        },
+        {
+          "source": "terra-bundle",
+          "quote": "You can use <a href=https://hackatime.hackclub.com>Hackatime"
+        }
+      ]
+    },
+    {
+      "id": "texel",
+      "directory_id": "recVwCyQ8sd7x4iOF",
+      "name": "Texel",
+      "url": "https://texel.hackclub.com/",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-21",
+      "end_date": "2026-11-14",
+      "format": null,
+      "directory_description": "Learn, share, and publish a 3d game - get games, consoles, IEMs, and more!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Prior Hack Club program bans are expressly excluded by the program page.",
+      "tracking": "hackatime-and-lapse",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "limited-assistance-assets-banned",
+      "artifact": "A 3D game posted to Itch.io, genuine coding tracked by Hackatime and art/modeling by Lapse; prior program bans are explicitly an eligibility exclusion.",
+      "reward": "Reviewed tiers advertise a $20 game grant/IEMs/controller, then higher game/hardware/storage rewards. Tier-hour ranges are examples, not guarantees.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "texel"
+      ],
+      "evidence": [
+        {
+          "source": "texel",
+          "quote": "only up to 20% of your code can be AI-generated"
+        },
+        {
+          "source": "texel",
+          "quote": "has not been banned from past Hack Club programs"
+        }
+      ]
+    },
+    {
+      "id": "thirdspace",
+      "directory_id": "recHDTltjcPpFMUgu",
+      "name": "thirdspace",
+      "url": "https://thirdspace.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "directory-ongoing-signups-closed",
+      "start_date": "2026-08-21",
+      "end_date": "2026-11-20",
+      "format": "online",
+      "directory_description": "code with your friends. we upgrade your tech.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. New signups are closed; existing cohort work is a separate question.",
+      "tracking": "weekly-hours-method-not-established",
+      "time_requirement": "10 hours per week for 8 weeks with friends. The live page says sign-ups closed despite the ongoing directory flag.",
+      "ai_policy": "not-established",
+      "artifact": "A real collaborative project and original weekly work evidence, not fabricated teammates or backfilled time.",
+      "reward": "Technology upgrades for qualifying existing participants; not actionable as a new registration.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "thirdspace"
+      ],
+      "evidence": [
+        {
+          "source": "thirdspace",
+          "quote": "sign-ups closed"
+        }
+      ]
+    },
+    {
+      "id": "toppings",
+      "directory_id": "rec3EIEpDyQ7CVAD8",
+      "name": "Toppings",
+      "url": "https://toppings.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2025-05-06",
+      "end_date": null,
+      "format": "online",
+      "directory_description": "Add more CSS to your site, get toppings",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "independent-review-advertised",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A unique CSS website using animation, a real media query, containers, grid, and either a gradient or flexbox. Final club/individual route and AI conditions must be checked.",
+      "reward": "$5 for an approved requirements-compliant website; not a no-code gift.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "toppings"
+      ],
+      "evidence": [
+        {
+          "source": "toppings",
+          "quote": "you get $5 to buy toppings"
+        }
+      ]
+    },
+    {
+      "id": "torque",
+      "directory_id": "recsmPgee5357637k",
+      "name": "Torque",
+      "url": "https://torque.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-27",
+      "end_date": "2026-12-30",
+      "format": "online",
+      "directory_description": "Make a project with motors, get it funded! Earn prizes in the shop like pinecils, hotplates, and more.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "hackatime",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A motor-powered hardware project through design, funded build, revision and working shipment. Genuine design/build hours are part of the published client flow.",
+      "reward": "Parts grants and Volts-based project/shop rewards after approval; the client advertises $5 per design hour, not free cash for a form.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "torque",
+        "torque-bundle"
+      ],
+      "evidence": [
+        {
+          "source": "torque-bundle",
+          "quote": "api/hackatime/hours"
+        },
+        {
+          "source": "torque-bundle",
+          "quote": "$5 per design hour"
+        }
+      ]
+    },
+    {
+      "id": "trmnt",
+      "directory_id": "recs2Pd1o1RXgMVud",
+      "name": "TRMNT",
+      "url": "https://trmnt.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-10-22",
+      "end_date": "2026-11-13",
+      "format": "online",
+      "directory_description": "Build a project for the TRMNL ecosystem, get devices and licenses!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "A real TRMNL plugin, self-hosted server or firmware/BYOD project. Complete timing/AI rules and hardware thresholds are not on the readable landing FAQ.",
+      "reward": "Approved licenses, devices and swag. A matched $25 BYOD bounty requires an approved genuinely new device port; it is not a universal $50 participation gift.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "trmnt"
+      ],
+      "evidence": [
+        {
+          "source": "trmnt",
+          "quote": "TRMNL themselves offer a $25 bounty"
+        },
+        {
+          "source": "trmnt",
+          "quote": "if you submit your build and get approved"
+        }
+      ]
+    },
+    {
+      "id": "twisted",
+      "directory_id": "recS2HhvwN6LrzyYC",
+      "name": "Twisted",
+      "url": "https://twisted.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-09-08",
+      "end_date": null,
+      "format": "online",
+      "directory_description": "Join a Twisted YSWS where you build cool projects, complete challenges, and work your way through a roadmap to earn a PC!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "not-established",
+      "time_requirement": "No complete current time requirement was established from the checked public rules. Do not assume that an hour-based program is non-Hackatime.",
+      "ai_policy": "not-established",
+      "artifact": "Projects, challenges and a roadmap are advertised; exact rules/tracker/AI policy were not established in checked text.",
+      "reward": "A possible PC reward for completing qualifying roadmap work; not a verified direct-PR hardware guarantee.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "twisted"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "vibes",
+      "directory_id": "rec3X8pFTzOoKhBfx",
+      "name": "Vibes",
+      "url": "https://vibes.hackclub.com",
+      "directory_status": "ongoing",
+      "state": "ongoing",
+      "start_date": "2026-02-05",
+      "end_date": null,
+      "format": null,
+      "directory_description": "Build a website with good vibes (and a little help from AI) and throw a club pizza party!",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Official club participation and genuine student-edit/add-feature steps are required.",
+      "tracking": "independent-review-advertised",
+      "time_requirement": "The public program describes a three-part club workshop, not a Hackatime-hour threshold. Final workshop/club approval still needs verification.",
+      "ai_policy": "explicitly-allowed-with-student-steps",
+      "artifact": "An AI-generated website seed, then real student edits to styling/content and real student-added features. Requires an official club/workshop; generated code alone does not complete the program.",
+      "reward": "A club celebration reward through the Clubs Shop after qualifying activity, not guaranteed personal cash.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "vibes",
+        "vibes-leaders"
+      ],
+      "evidence": [
+        {
+          "source": "vibes",
+          "quote": "Prompt an AI to code a website"
+        },
+        {
+          "source": "vibes",
+          "quote": "Edit the code yourself"
+        },
+        {
+          "source": "vibes",
+          "quote": "Add new features"
+        }
+      ]
+    },
+    {
+      "id": "wonders",
+      "directory_id": "recwCVkYneF7oU9Ae",
+      "name": "Wonders",
+      "url": "https://wonders.hackclub.com",
+      "directory_status": "upcoming",
+      "state": "upcoming-by-start-date",
+      "start_date": "2027-01-01",
+      "end_date": "2027-03-01",
+      "format": null,
+      "directory_description": "No description supplied by the directory.",
+      "eligibility": "Hack Club standard terms require ages 13 to 18 inclusive; eligibility ends on the 19th birthday. Minors need parent/guardian consent. Program-specific restrictions and organizer discretion also apply. Additional program-specific account, regional and artifact conditions must be honored.",
+      "tracking": "independent-review-advertised",
+      "time_requirement": "The page says hours do not matter, but the official start date is January 1, 2027 despite its ongoing status flag. Treat it as upcoming until actual opening is established.",
+      "ai_policy": "not-established",
+      "artifact": "A genuinely distinctive project reviewed for its merits. Full AI, submission and reward conditions are not established.",
+      "reward": "A reviewer-selected surprise is advertised without an exact item/value; not a guaranteed current grant.",
+      "reward_guarantee": "Subject to availability, acceptance and Hack Club's sole discretion under the current standard terms.",
+      "submission_url": null,
+      "sources": [
+        "hackclub-events",
+        "hackclub-terms",
+        "wonders"
+      ],
+      "evidence": [
+        {
+          "source": "wonders",
+          "quote": "HOURS do not MATTER here"
+        }
+      ]
+    }
+  ],
+  "external": [
+    {
+      "id": "github-student-pack",
+      "name": "GitHub Student Developer Pack",
+      "url": "https://education.github.com/pack",
+      "status": "current-offer",
+      "tracking": "student-verification",
+      "eligibility": "At least 13, a GitHub personal account, currently enrolled in a degree/diploma-granting program, and private proof of current student status. Partner terms are separate.",
+      "artifact": "Private student verification, not a new code artifact. Do not commit IDs, enrollment records or schedules.",
+      "reward": "A changing developer-resource bundle. Only the current individually listed offers below are counted; an existing account alone is not a credit grant.",
+      "sources": [
+        "github-student-pack",
+        "github-student-eligibility"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-eligibility",
+          "quote": "Are at least 13 years old."
+        }
+      ]
+    },
+    {
+      "id": "github-codespaces",
+      "name": "GitHub Codespaces student benefit",
+      "url": "https://education.github.com/pack",
+      "status": "offer-listed",
+      "tracking": "student-verification",
+      "eligibility": "Verified GitHub Education student; account and quota terms apply.",
+      "artifact": "Student benefit activation and normal source repository usage. No Hackatime requirement.",
+      "reward": "Free Pro-level Codespaces access. A precise current quota was not established in this source, so no hours/storage amount is invented.",
+      "sources": [
+        "github-student-pack"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "Free Pro level access to Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "namecheap-me",
+      "name": "Namecheap student .me domain",
+      "url": "https://nc.me",
+      "status": "eligibility-conflict",
+      "tracking": "student-verification",
+      "eligibility": "The Pack lists this offer for verified students, but the current nc.me page says university students. High-school route and registrar/guardian eligibility must be clarified privately.",
+      "artifact": "Eligible student/registrar verification and private registration details; never a public street address or a fabricated affiliation.",
+      "reward": "The current Pack advertises one year of .me registration plus a one-year SSL certificate. Not asserted usable by every teen.",
+      "sources": [
+        "github-student-pack",
+        "namecheap-student"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "1 year domain name registration on the .me TLD."
+        },
+        {
+          "source": "namecheap-student",
+          "quote": "giving university students a free bundle"
+        }
+      ]
+    },
+    {
+      "id": "name-com-domain",
+      "name": "Name.com student domain offer",
+      "url": "https://education.github.com/pack",
+      "status": "offer-listed-terms-pending",
+      "tracking": "student-verification",
+      "eligibility": "Verified student plus Name.com account/registrar terms. The Pack explicitly says the account must include a unique address; supply it privately to the registrar only.",
+      "artifact": "An eligible redemption/registrar account, not a new PR. Exact teen registrant and renewal conditions were not established.",
+      "reward": "A selected free domain from over 25 extensions including .live, .studio, .software, .app and .dev. Duration/renewal is not inferred beyond the current source.",
+      "sources": [
+        "github-student-pack"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "over 25 domain extensions"
+        }
+      ]
+    },
+    {
+      "id": "tech-domain",
+      "name": ".TECH student domain offer",
+      "url": "https://education.github.com/pack",
+      "status": "offer-listed-terms-pending",
+      "tracking": "student-verification",
+      "eligibility": "Verified student plus partner registration, age, geographic and renewal terms. Do not assume a child's registrar account is allowed.",
+      "artifact": "Private eligible benefit redemption and registration; no Hackatime or project-hour claim.",
+      "reward": "One standard .TECH domain free for one year, as currently listed.",
+      "sources": [
+        "github-student-pack"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "One standard .TECH domain free for 1 year."
+        }
+      ]
+    },
+    {
+      "id": "camber-student",
+      "name": "Camber Student compute",
+      "url": "https://www.cambercloud.com/github",
+      "status": "offer-listed-terms-pending",
+      "tracking": "student-verification",
+      "eligibility": "Eligible verified student and Camber account terms. The station reports a service/free-tier problem; this check did not authenticate or prove usable compute.",
+      "artifact": "Eligible student-plan activation; real jobs would need their own execution evidence.",
+      "reward": "Pack advertises 40 CPU hours, 5 GPU hours, 50 GB storage and 50 agent messages per month while enrolled. No GPU model or successful job is inferred.",
+      "sources": [
+        "github-student-pack",
+        "camber-student"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "40 CPU hours, 5 GPU hours, 50 GB of storage, and 50 agent messages per month"
+        }
+      ]
+    },
+    {
+      "id": "mongodb-student",
+      "name": "MongoDB student credits",
+      "url": "https://education.github.com/pack",
+      "status": "offer-listed-terms-pending",
+      "tracking": "student-verification",
+      "eligibility": "Verified student and MongoDB account/partner terms. Existing Atlas account status is not a new reward confirmation.",
+      "artifact": "Eligible Pack redemption, with keys kept private and usage genuinely measured.",
+      "reward": "$50 in Atlas credits plus Compass/University benefits. Not personal cash.",
+      "sources": [
+        "github-student-pack"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "$50 in MongoDB Atlas Credits"
+        }
+      ]
+    },
+    {
+      "id": "azure-13-17",
+      "name": "Azure student services for ages 13 to 17",
+      "url": "https://education.github.com/pack",
+      "status": "offer-listed-redemption-route-pending",
+      "tracking": "student-verification",
+      "eligibility": "The Pack explicitly lists ages 13 to 17. The checked standalone starter URL redirects to the college/18+ offer, so a correct young-student redemption route still needs confirmation.",
+      "artifact": "Private eligible education verification. No fabricated college enrollment or adult date of birth.",
+      "reward": "Listed free access to App Services, Functions, Notification Hubs, MySQL in-app, Application Insights and Azure DevOps. This is not the $100 credit offer.",
+      "sources": [
+        "github-student-pack",
+        "azure-young"
+      ],
+      "evidence": [
+        {
+          "source": "github-student-pack",
+          "quote": "For students age 13-17."
+        }
+      ]
+    },
+    {
+      "id": "azure-100-credit",
+      "name": "Azure for Students $100 college offer",
+      "url": "https://azure.microsoft.com/en-us/free/students",
+      "status": "not-teen-eligible-at-14",
+      "tracking": "student-verification",
+      "eligibility": "Current detailed terms require age 18+ and full-time attendance at an accredited degree-granting two-year/four-year institution.",
+      "artifact": "Eligible college-student verification; not an available personal grant to this minor.",
+      "reward": "$100 for 12 months with no credit card at signup, only for qualifying entrants.",
+      "sources": [
+        "azure-students",
+        "azure-young"
+      ],
+      "evidence": [
+        {
+          "source": "azure-young",
+          "quote": "age 18 or older"
+        }
+      ]
+    },
+    {
+      "id": "bagel-fund",
+      "name": "Bagel Fund",
+      "url": "https://bagel.fund",
+      "status": "current-application-offer",
+      "tracking": "independent-selection",
+      "eligibility": "Ambitious young builders. The page shows teenage grantees but publishes no universal numerical age/country rule; minor/payment eligibility still needs confirmation.",
+      "artifact": "A real project and an honest application describing the need and budget. Applicant statements must come from the applicant, not an agent claiming their personal story.",
+      "reward": "Selected $100-500 microgrants. The advertised 48-hour email response is conditional on a good fit, not a guaranteed award.",
+      "sources": [
+        "bagel-fund"
+      ],
+      "evidence": [
+        {
+          "source": "bagel-fund",
+          "quote": "We give microgrants ($100-500) to ambitious young builders."
+        }
+      ]
+    },
+    {
+      "id": "1517-medici",
+      "name": "1517 Medici Project",
+      "url": "https://www.1517fund.com/medici",
+      "status": "current-application-offer",
+      "tracking": "independent-selection",
+      "eligibility": "High-school/college students and dropouts pursuing a genuine project for its own sake, not grades/admissions. Payment/guardian terms need confirmation for a minor.",
+      "artifact": "A genuine project and applicant-authored explanation of future work. Do not fabricate passion, collaborators, outcomes or experiments.",
+      "reward": "A selected project receives a minimum $1,000 future-work stipend. The source explicitly says this is not an award for what was already done.",
+      "sources": [
+        "medici-current"
+      ],
+      "evidence": [
+        {
+          "source": "medici-current",
+          "quote": "a minimum $1K stipend"
+        },
+        {
+          "source": "medici-current",
+          "quote": "it's not an award"
+        }
+      ]
+    },
+    {
+      "id": "awesome-foundation",
+      "name": "Awesome Foundation chapter grants",
+      "url": "https://www.awesomefoundation.org/en",
+      "status": "current-application-offer-terms-pending",
+      "tracking": "independent-selection",
+      "eligibility": "Chapter-specific applicant/project rules; universal minor eligibility was not established from the checked landing page.",
+      "artifact": "A real project proposal to an appropriate chapter, with applicant-authored personal claims and private contact details.",
+      "reward": "The site advertises $1,000 microgrants; selection and chapter availability apply. Not a participation reward.",
+      "sources": [
+        "awesome-foundation"
+      ]
+    },
+    {
+      "id": "nest",
+      "name": "Hack Club Nest hosting",
+      "url": "https://hackclub.app",
+      "status": "current-service",
+      "tracking": "student-verification-and-acceptable-use",
+      "eligibility": "Teen/student verification and the Nest acceptable-use/limitations rules. Account access was not authenticated today.",
+      "artifact": "A real hosted app/bot/site and compliant usage. No Hackatime requirement is stated by the checked service guides.",
+      "reward": "Free Linux hosting, not personal cash or an unconditional reserved GPU grant.",
+      "sources": [
+        "nest",
+        "nest-guide"
+      ],
+      "evidence": [
+        {
+          "source": "nest-guide",
+          "quote": "free Linux hosting service"
+        }
+      ]
+    },
+    {
+      "id": "is-a-dev",
+      "name": "is-a.dev subdomains",
+      "url": "https://docs.is-a.dev",
+      "status": "current-service-approval-dependent",
+      "tracking": "github-review",
+      "eligibility": "A GitHub account, a qualifying useful site, and current domain-registration rules. Exact public owner/contact fields need review before a PR; never publish a personal email or address by assumption.",
+      "artifact": "A deployed site and a valid DNS JSON pull request under the project's current schema. No registration PR was created.",
+      "reward": "An approved free is-a.dev subdomain, not a paid TLD registration or a physical reward.",
+      "sources": [
+        "is-a-dev"
+      ]
+    },
+    {
+      "id": "js-org",
+      "name": "JS.ORG project subdomains",
+      "url": "https://js.org",
+      "status": "current-service-approval-dependent",
+      "tracking": "github-review",
+      "eligibility": "A suitable JavaScript-related project/site and current maintainer/DNS rules; GitHub account rules still apply.",
+      "artifact": "A deployed JS-related project and the required repository/DNS PR. Approval and a live site are separate from locally passing code tests.",
+      "reward": "An approved project subdomain; no paid domain or prize is guaranteed.",
+      "sources": [
+        "js-org"
+      ]
+    },
+    {
+      "id": "aws-activate",
+      "name": "AWS Activate startup credits",
+      "url": "https://aws.amazon.com/startups/credits",
+      "status": "not-a-guaranteed-teen-offer",
+      "tracking": "startup-verification",
+      "eligibility": "Qualifying startup and AWS legal/account terms. The AWS agreement requires lawful capacity to enter contracts; no personal minor signup or card-backed redemption was performed.",
+      "artifact": "Real startup/credit application evidence. An old unused promo code is not a usable grant confirmation.",
+      "reward": "Startup cloud credits under tier-specific conditions; no currently usable teen tranche or personal cash is inferred.",
+      "sources": [
+        "aws-activate",
+        "aws-agreement"
+      ]
+    },
+    {
+      "id": "google-cloud-education",
+      "name": "Google Cloud education credits",
+      "url": "https://cloud.google.com/edu/students",
+      "status": "not-established",
+      "tracking": "education-program-verification",
+      "eligibility": "The relevant large pages exceeded the bounded evidence reader, so exact current student/age/application rules were not verified. Do not infer a guaranteed individual high-school grant.",
+      "artifact": "Only an actually eligible education-program application would count; no credit or compute job was claimed.",
+      "reward": "No exact currently actionable teen grant verified.",
+      "sources": [
+        "google-cloud-students",
+        "google-cloud-education"
+      ]
+    },
+    {
+      "id": "emergent-ventures",
+      "name": "Emergent Ventures",
+      "url": "https://www.mercatus.org/emergent-ventures",
+      "status": "rules-not-accessible",
+      "tracking": "independent-selection",
+      "eligibility": "The primary page returned HTTP 403 in this check. Exact current minor eligibility and application requirements were not established.",
+      "artifact": "Only an eligible applicant's real proposal, not an agent-written personal statement.",
+      "reward": "No guaranteed current amount inferred.",
+      "sources": [
+        "emergent-ventures"
+      ]
+    },
+    {
+      "id": "mozilla-moss",
+      "name": "Mozilla Open Source Support",
+      "url": "https://www.mozilla.org/en-US/moss/",
+      "status": "review-current-source-before-action",
+      "tracking": "independent-selection",
+      "eligibility": "A program-specific open-source application; do not treat an old grant name as a teen entitlement.",
+      "artifact": "Eligible open-source project and current application terms, if applications are available.",
+      "reward": "Not counted as a verified guaranteed teen reward.",
+      "sources": [
+        "mozilla-grants"
+      ]
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "devpost-31302",
+      "name": "PayPal AI Hackathon",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 01 - Nov 12, 2026",
+      "listed_prize_amount": "$67,500",
+      "rules_url": "https://paypalaihackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-31667",
+      "name": "Kiroween 2026",
+      "url": "https://kiroween.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 30 - Dec 04, 2026",
+      "listed_prize_amount": "$100,000",
+      "rules_url": "https://kiroween.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-31024",
+      "name": "Meta VR Start Developer Competition 2026",
+      "url": "https://start-developer-competition-26.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Sep 24 - Nov 18, 2026",
+      "listed_prize_amount": "$1,000,000",
+      "rules_url": "https://start-developer-competition-26.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-31572",
+      "name": "Codegeist 2026: Build with context. Ship with confidence.",
+      "url": "https://codegeist2026.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 27 - Dec 22, 2026",
+      "listed_prize_amount": "$120,000",
+      "rules_url": "https://codegeist2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-31552",
+      "name": "UGREEN Hackathon 2026 on AI NAS",
+      "url": "https://ugreenhackathon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 22 - Nov 16, 2026",
+      "listed_prize_amount": "$46,000",
+      "rules_url": "https://ugreenhackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-31659",
+      "name": "Learn AR with SPECS",
+      "url": "https://learn-specs.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 15 - Nov 09, 2026",
+      "listed_prize_amount": "$2,500",
+      "rules_url": "https://learn-specs.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-31083",
+      "name": "QNX Global Hackathon",
+      "url": "https://qnx.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 02 - Dec 15, 2026",
+      "listed_prize_amount": "$50,000",
+      "rules_url": "https://qnx.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-30500",
+      "name": "DSH Hacks V2 ($100k+ in prizes!)",
+      "url": "https://dsh-hacks-v2.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Jun 24 - Nov 15, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://dsh-hacks-v2.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-30789",
+      "name": "Arbiter Hacks V1",
+      "url": "https://arbiter-hacks-v1.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 20 - Dec 21, 2026",
+      "listed_prize_amount": "$7,800",
+      "rules_url": "https://arbiter-hacks-v1.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-public-feed"
+      ]
+    },
+    {
+      "id": "devpost-30740",
+      "name": "Code for Humanity",
+      "url": "https://code-for-humanity.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Jul 16, 2026 - Jan 15, 2027",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://code-for-humanity.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31642",
+      "name": "AWS MSP AI Hackathon",
+      "url": "https://aws-agentic-msp.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 02 - Dec 11, 2026",
+      "listed_prize_amount": "$64,000",
+      "rules_url": "https://aws-agentic-msp.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31627",
+      "name": "Next Byte Hacks V5",
+      "url": "https://next-byte-hacks-v5.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 06 - Nov 07, 2026",
+      "listed_prize_amount": "$100",
+      "rules_url": "https://next-byte-hacks-v5.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31580",
+      "name": "Ostad Presents YUNet AIgnite Buildathon 2026",
+      "url": "https://yunet-aignite26.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 01 - 05, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://yunet-aignite26.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31773",
+      "name": "LaunchPad Hacks",
+      "url": "https://launchpad-hacks.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 16 - Nov 20, 2026",
+      "listed_prize_amount": "$300",
+      "rules_url": "https://launchpad-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-30764",
+      "name": "Syntax Summit",
+      "url": "https://syntax-summit.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Jul 18, 2026 - Jan 14, 2027",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://syntax-summit.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31789",
+      "name": "STEM2Connect AI Hackathon",
+      "url": "https://stem2connect-online-hackathon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 17 - Nov 21, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://stem2connect-online-hackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31489",
+      "name": "EthnoHack",
+      "url": "https://ethnohack2026.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 02 - 08, 2026",
+      "listed_prize_amount": "€8,000",
+      "rules_url": "https://ethnohack2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31108",
+      "name": "InnovArt 2027: Art and Technology Hack Day",
+      "url": "https://innovart2027.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Aug 23, 2026 - Jan 02, 2027",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://innovart2027.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-2"
+      ]
+    },
+    {
+      "id": "devpost-31796",
+      "name": "SafeSpace Hacks",
+      "url": "https://safespace-hacks.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 17 - Nov 22, 2026",
+      "listed_prize_amount": "$280",
+      "rules_url": "https://safespace-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31907",
+      "name": "Build Your First AI App",
+      "url": "https://build-your-first-ai-app.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 27 - Nov 27, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://build-your-first-ai-app.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31187",
+      "name": "STEMergent Hacks 2026",
+      "url": "https://stemergent-hacks.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 31 - Nov 15, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://stemergent-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31815",
+      "name": "Neural Storm",
+      "url": "https://neuralstorm.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 02 - 05, 2026",
+      "listed_prize_amount": "₹ 20,000",
+      "rules_url": "https://neuralstorm.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31619",
+      "name": "Pumpkin Playground",
+      "url": "https://pumpkin-playground.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 12 - Nov 06, 2026",
+      "listed_prize_amount": "$50",
+      "rules_url": "https://pumpkin-playground.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31798",
+      "name": "Taskforge",
+      "url": "https://taskforge.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 17 - Nov 24, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://taskforge.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31664",
+      "name": "Herhack",
+      "url": "https://herhack.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 17 - Nov 10, 2026",
+      "listed_prize_amount": "₹ 200,000",
+      "rules_url": "https://herhack.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31060",
+      "name": "Agentic Hackathon",
+      "url": "https://agentic-hackathon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 01 - 10, 2026",
+      "listed_prize_amount": "$480",
+      "rules_url": "https://agentic-hackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31480",
+      "name": "AI Agents for Founders Challenge - HETIC 2026",
+      "url": "https://ai-agents-founders-hetic-26.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 04 - Dec 18, 2026",
+      "listed_prize_amount": "€1,000",
+      "rules_url": "https://ai-agents-founders-hetic-26.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-3"
+      ]
+    },
+    {
+      "id": "devpost-31795",
+      "name": "AccessED Hacks",
+      "url": "https://accessed-hacks.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 17 - Nov 20, 2026",
+      "listed_prize_amount": "$225",
+      "rules_url": "https://accessed-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31666",
+      "name": "Mathematics for systems security",
+      "url": "https://mathematics-systems-security.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 16 - Nov 15, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://mathematics-systems-security.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-26475",
+      "name": "Dakar Bitcoin Hack by BTrust",
+      "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 26 - Nov 20, 2026",
+      "listed_prize_amount": "$900",
+      "rules_url": "https://dakar-bitcoin-hack-2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31797",
+      "name": "Green Shift Hacks",
+      "url": "https://green-shift-hacks.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 18 - Nov 17, 2026",
+      "listed_prize_amount": "$125",
+      "rules_url": "https://green-shift-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31705",
+      "name": "2026 UXC NYU Fall Design-a-thon",
+      "url": "https://uxc-fall-2026-design-a-thon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 02 - 07, 2026",
+      "listed_prize_amount": "$1,000",
+      "rules_url": "https://uxc-fall-2026-design-a-thon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31737",
+      "name": "HackWithAditya",
+      "url": "https://hackwithaditya.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 16 - Nov 25, 2026",
+      "listed_prize_amount": "₹ 500,000",
+      "rules_url": "https://hackwithaditya.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31787",
+      "name": "GenHacks",
+      "url": "https://genhacks-open.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 01 - Dec 26, 2026",
+      "listed_prize_amount": "$CAD 1,050",
+      "rules_url": "https://genhacks-open.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31682",
+      "name": "CSC Winter Sparkathon",
+      "url": "https://csc-winter-sparkathon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 29 - Nov 30, 2026",
+      "listed_prize_amount": "$100",
+      "rules_url": "https://csc-winter-sparkathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31748",
+      "name": "Girls Who Code HHS Hackathon 2026",
+      "url": "https://gwchhs-hackathon-2026.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 15 - Nov 05, 2026",
+      "listed_prize_amount": "$50",
+      "rules_url": "https://gwchhs-hackathon-2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-4"
+      ]
+    },
+    {
+      "id": "devpost-31883",
+      "name": "DATANOVA 2026 GLOBAL DATA-THON",
+      "url": "https://datanova-2026-global-data-thon.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 26 - Nov 10, 2026",
+      "listed_prize_amount": "$1,750",
+      "rules_url": "https://datanova-2026-global-data-thon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31960",
+      "name": "ML Empowerment Build Challenge 4.0",
+      "url": "https://ml-build-challenge-4.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 01 - Dec 02, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://ml-build-challenge-4.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31946",
+      "name": "Remote Control AI",
+      "url": "https://remote-control-ai.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 31 - Nov 05, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://remote-control-ai.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31719",
+      "name": "Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration",
+      "url": "https://scope-ai-thon-2026.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 01 - 14, 2026",
+      "listed_prize_amount": "$CAD 1,400",
+      "rules_url": "https://scope-ai-thon-2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31626",
+      "name": "Hackathon Agéntico SoftwareChido 2026B",
+      "url": "https://hackathon-agentico-2026b.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 05 - Nov 25, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://hackathon-agentico-2026b.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-28603",
+      "name": "MCA 2026 projects",
+      "url": "https://mca-2026-projects.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Feb 27 - Dec 25, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://mca-2026-projects.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31504",
+      "name": "Code For DFW",
+      "url": "https://code-for-dfw.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Oct 20 - Nov 25, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://code-for-dfw.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31733",
+      "name": "305 Veterans Hackathon Edition November 2026 - 305Hackathons.vercel.app",
+      "url": "https://305veteransnov2026.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 01 - 30, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://305veteransnov2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31993",
+      "name": "IdeaLab Hacks",
+      "url": "https://idealab-hacks.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 04 - 30, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://idealab-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-5"
+      ]
+    },
+    {
+      "id": "devpost-31873",
+      "name": "HackOut! 2027",
+      "url": "https://hackout-branchout.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 03, 2026 - Feb 01, 2027",
+      "listed_prize_amount": "$3,000",
+      "rules_url": "https://hackout-branchout.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-6"
+      ]
+    },
+    {
+      "id": "devpost-32009",
+      "name": "AI for Medicine: A Global Student Hackathon on the Future of Care",
+      "url": "https://ai-for-medicine.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 04 - Dec 04, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://ai-for-medicine.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-6"
+      ]
+    },
+    {
+      "id": "devpost-31974",
+      "name": "PhysTech 2027: Physical Activity and Technology Hack Day",
+      "url": "https://phystech2027.devpost.com/",
+      "state": "open",
+      "dates_as_published": "Nov 04, 2026 - Jun 26, 2027",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://phystech2027.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-open-6"
+      ]
+    },
+    {
+      "id": "devpost-31808",
+      "name": "#BuildHybridAI 2026",
+      "url": "https://firebasehybridaihackathon.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 09 - 30, 2026",
+      "listed_prize_amount": "$30,000",
+      "rules_url": "https://firebasehybridaihackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-30455",
+      "name": "Cosmo Hacks 2026",
+      "url": "https://cosmohacks.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Dec 19, 2026 - Jan 18, 2027",
+      "listed_prize_amount": "$146,700",
+      "rules_url": "https://cosmohacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-30819",
+      "name": "United Hacks V8",
+      "url": "https://unitedhacksv8.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Jan 08 - 10, 2027",
+      "listed_prize_amount": "$18,700",
+      "rules_url": "https://unitedhacksv8.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-31495",
+      "name": "IceHacks",
+      "url": "https://icehacks.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 08 - 15, 2026",
+      "listed_prize_amount": "$17,150",
+      "rules_url": "https://icehacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-30340",
+      "name": "HackTitan",
+      "url": "https://hacktitan.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Feb 02 - 04, 2027",
+      "listed_prize_amount": "$10,000",
+      "rules_url": "https://hacktitan.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-27097",
+      "name": "evensonarisnord",
+      "url": "https://evensonarisnord.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Dec 31, 2026",
+      "listed_prize_amount": "$150",
+      "rules_url": "https://evensonarisnord.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-31826",
+      "name": "Global AI Builder's Challenge",
+      "url": "https://global-ai-builders-challenge.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 21 - 28, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://global-ai-builders-challenge.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-31820",
+      "name": "HackTheFashion Global'26",
+      "url": "https://hackthefashion-global26.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 06 - 25, 2026",
+      "listed_prize_amount": "$45,000",
+      "rules_url": "https://hackthefashion-global26.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-29135",
+      "name": "Brewing Codes 4.0",
+      "url": "https://brewing-codes-4-0.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Mar 12 - 27, 2028",
+      "listed_prize_amount": "₹ 100,000",
+      "rules_url": "https://brewing-codes-4-0.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-1"
+      ]
+    },
+    {
+      "id": "devpost-31222",
+      "name": "checkpoint 1 - games for good",
+      "url": "https://checkpoint-1.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Jan 08 - 10, 2027",
+      "listed_prize_amount": "$11,960",
+      "rules_url": "https://checkpoint-1.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31680",
+      "name": "The Atomiq Hackathon | Qiskit Fall Fest 2026 at IEM",
+      "url": "https://atomiq-hackathon-qff-26-iem.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 10 - 11, 2026",
+      "listed_prize_amount": "₹ 10,000",
+      "rules_url": "https://atomiq-hackathon-qff-26-iem.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31683",
+      "name": "BuildyourOwnWebsite",
+      "url": "https://buildyourownwebsite.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 16 - 25, 2026",
+      "listed_prize_amount": "₹ 0",
+      "rules_url": "https://buildyourownwebsite.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-30456",
+      "name": "Bridge The Gap Hacks",
+      "url": "https://sq-hacks.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 15 - 21, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://sq-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31535",
+      "name": "Build Beyond Hackathon",
+      "url": "https://build-beyond.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Mar 01 - 15, 2027",
+      "listed_prize_amount": "$5,000",
+      "rules_url": "https://build-beyond.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31831",
+      "name": "Ctrl+V Hackathon",
+      "url": "https://ctrl-v-hackathon-31831.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 06 - 10, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://ctrl-v-hackathon-31831.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31711",
+      "name": "UXDC Designathon - 2026",
+      "url": "https://uxdc-designathon-2026.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 07 - 08, 2026",
+      "listed_prize_amount": "$200",
+      "rules_url": "https://uxdc-designathon-2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31775",
+      "name": "OBSCURA: Satellite AI Research Challenge",
+      "url": "https://obscura.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 18 - 24, 2026",
+      "listed_prize_amount": "$50",
+      "rules_url": "https://obscura.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31823",
+      "name": "NorCal Hacks 27",
+      "url": "https://norcal-hacks-27.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 12 - 15, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://norcal-hacks-27.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-2"
+      ]
+    },
+    {
+      "id": "devpost-31549",
+      "name": "KUK VIRTUAL HACKATHON",
+      "url": "https://kuk-virtual-hackathon.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 15 - 22, 2026",
+      "listed_prize_amount": "$800",
+      "rules_url": "https://kuk-virtual-hackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31915",
+      "name": "BUHACK 2.0",
+      "url": "https://buhack-2.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 13 - 15, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://buhack-2.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31800",
+      "name": "GNEC Hackathon 2027 Winter - Compete For UN-Affiliated/NGO Internships & Prizes",
+      "url": "https://gnec-hackathon-2027-winter.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Jan 26 - Mar 26, 2027",
+      "listed_prize_amount": "$700",
+      "rules_url": "https://gnec-hackathon-2027-winter.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31887",
+      "name": "Intermountain Quantum Competition",
+      "url": "https://iqc.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 06 - 07, 2026",
+      "listed_prize_amount": "$850",
+      "rules_url": "https://iqc.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31943",
+      "name": "CIVIC Hack 2026",
+      "url": "https://civic-hack-2026.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 12 - 14, 2026",
+      "listed_prize_amount": "$CAD 1,500",
+      "rules_url": "https://civic-hack-2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31522",
+      "name": "WiCS Hackathon",
+      "url": "https://wics-hackathon.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Feb 28 - Mar 02, 2027",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://wics-hackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-30110",
+      "name": "MEGA Hackathon 2027",
+      "url": "https://megahackathon-27.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Feb 14 - 21, 2027",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://megahackathon-27.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31297",
+      "name": "BUILD 4 ALL",
+      "url": "https://build4all.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Dec 05 - 12, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://build4all.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31734",
+      "name": "305 CodeFest Edition December 2026 - 305Hackathons.vercel.app",
+      "url": "https://305codefestdec2026.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Dec 01 - 31, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://305codefestdec2026.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-3"
+      ]
+    },
+    {
+      "id": "devpost-31188",
+      "name": "N/A",
+      "url": "https://ai-content-engine-hackathon.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Feb 02 - Apr 06, 2027",
+      "listed_prize_amount": "$2",
+      "rules_url": "https://ai-content-engine-hackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31924",
+      "name": "HACKRISE'26",
+      "url": "https://hackrise-26.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 29, 2026 - Jan 31, 2027",
+      "listed_prize_amount": "₹ 1,000",
+      "rules_url": "https://hackrise-26.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31827",
+      "name": "AI for Human Impact: A Global BASIS Hackathon",
+      "url": "https://basisglobalhackathon.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Feb 06 - 13, 2027",
+      "listed_prize_amount": "$10,200",
+      "rules_url": "https://basisglobalhackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31855",
+      "name": "LPC Hacks",
+      "url": "https://lpc-hacks.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 14, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://lpc-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31691",
+      "name": "CRC Hacks",
+      "url": "https://crc-student-hackathon.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 09 - 17, 2026",
+      "listed_prize_amount": "$100",
+      "rules_url": "https://crc-student-hackathon.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31994",
+      "name": "AI OpenBuild",
+      "url": "https://ai-openbuild.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 05 - Dec 10, 2026",
+      "listed_prize_amount": "$150",
+      "rules_url": "https://ai-openbuild.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31972",
+      "name": "SLAY HACKS",
+      "url": "https://slayy-hacks.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 07 - 13, 2026",
+      "listed_prize_amount": "$4,500",
+      "rules_url": "https://slayy-hacks.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31900",
+      "name": "FCA Hacks",
+      "url": "https://lis-hack-day.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 19, 2026",
+      "listed_prize_amount": "$0",
+      "rules_url": "https://lis-hack-day.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    },
+    {
+      "id": "devpost-31794",
+      "name": "Code for Change",
+      "url": "https://code-for-change-global.devpost.com/",
+      "state": "upcoming",
+      "dates_as_published": "Nov 05 - Dec 01, 2026",
+      "listed_prize_amount": "$200",
+      "rules_url": "https://code-for-change-global.devpost.com/rules",
+      "eligibility": "Not established by the listing API. Age, geography, originality, build window, required technology and parental consent must be verified from the current event rules before entry.",
+      "tracking": "No Hackatime requirement established from this listing; complete rules remain necessary.",
+      "artifact": "Current rules must define the project, repository/deployment, technology use, video and form fields. A title alone does not establish them.",
+      "participation_reward": "Not established. Listed total prize value is not a guaranteed participation reward or necessarily cash.",
+      "sources": [
+        "devpost-upcoming-4"
+      ]
+    }
+  ],
+  "legacy_directory_entries": [
+    {
+      "slug": "blot",
+      "name": "Blot",
+      "status": "ended",
+      "startDate": "2024-04-09",
+      "endDate": "2024-11-23",
+      "url": "https://blot.hackclub.com"
+    },
+    {
+      "slug": "cider",
+      "name": "Cider",
+      "status": "ended",
+      "startDate": "2024-05-24",
+      "endDate": "2025-08-31",
+      "url": "https://cider.hackclub.com"
+    },
+    {
+      "slug": "frame",
+      "name": "frame",
+      "status": "ended",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-31",
+      "url": "https://frame.hackclub.com"
+    },
+    {
+      "slug": "high-seas",
+      "name": "High Seas",
+      "status": "ended",
+      "startDate": "2024-10-30",
+      "endDate": "2025-01-31",
+      "url": "https://highseas.hackclub.com/"
+    },
+    {
+      "slug": "onboard",
+      "name": "OnBoard",
+      "status": "ended",
+      "startDate": "2023-05-27",
+      "endDate": "2025-05-03",
+      "url": "https://hackclub.com/onboard"
+    },
+    {
+      "slug": "orpheusathon",
+      "name": "OrpheusAthon",
+      "status": "ended",
+      "startDate": "2026-08-31",
+      "endDate": "2026-11-05",
+      "url": "https://stern.hackclub.com/orpehusathon/welcome"
+    },
+    {
+      "slug": "retrospect",
+      "name": "Retrospect",
+      "status": "ended",
+      "startDate": "2025-02-09",
+      "endDate": "2025-04-07",
+      "url": "https://retrospect.hackclub.com/"
+    },
+    {
+      "slug": "save-point",
+      "name": "Save Point",
+      "status": "ended",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-02",
+      "url": "https://savepoint.hackclub.com/?utm_source=hackclub.com&utm_medium=programs&utm_campaign=launch"
+    },
+    {
+      "slug": "stardance",
+      "name": "Stardance",
+      "status": "ended",
+      "startDate": "2026-05-30",
+      "endDate": "2026-10-31",
+      "url": "https://stardance.hackclub.com/program_page"
+    },
+    {
+      "slug": "the-bin",
+      "name": "The Bin",
+      "status": "ended",
+      "startDate": "2024-04-14",
+      "endDate": "2024-09-30",
+      "url": null
+    }
+  ]
+}

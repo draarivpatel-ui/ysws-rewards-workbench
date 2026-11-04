@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Offline text privacy checks and SHA-256 evidence for selected source files."><title>Build Evidence Kit</title><script type="module" src="./app.js"></script></head>
+<body>
+  <header><h1>Build Evidence Kit</h1><p>Inspect selected text source files and create a reproducible SHA-256 manifest. Nothing is uploaded.</p></header>
+  <main>
+    <details open><summary>Read the evidence boundary</summary><p>This is a selected-text audit, not a complete privacy or security certification. Binary images, audio, video, Git history, accounts and remote deployments are not checked. Manual review is still necessary.</p><p>No scan or hash establishes human authorship, genuine work hours, program approval or guaranteed rewards. This software is AI-assisted.</p></details>
+    <p><label for="files">Choose public source files only</label> <input id="files" type="file" multiple accept=".js,.html,.css,.json,.md,.py,.c,.h,.txt,.yml,.yaml"></p>
+    <p>Limit 500 files, 1 MB per file, 20 MB total. Do not select credentials, identity documents, private schedules or browser data.</p>
+    <p id="status" role="status" aria-live="polite">No files selected.</p>
+    <section aria-labelledby="files-heading"><h2 id="files-heading">Selected-byte manifest</h2><table><thead><tr><th scope="col">Public path</th><th scope="col">Bytes</th><th scope="col">SHA-256</th></tr></thead><tbody id="manifest"></tbody></table></section>
+    <section aria-labelledby="findings-heading"><h2 id="findings-heading">Findings</h2><p>Only category and line number are shown. Offending values are never copied into the report.</p><ul id="findings"></ul></section>
+    <button id="download" type="button" disabled>Download evidence JSON</button>
+  </main>
+  <footer><p>Zero runtime dependencies. No analytics, login, external calls or automatic persistence.</p></footer>
+</body>
+</html>
