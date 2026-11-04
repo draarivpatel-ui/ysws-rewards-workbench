@@ -1,0 +1,7 @@
+diff --git a/cnames_active.js b/cnames_active.js
+--- a/cnames_active.js
++++ b/cnames_active.js
+@@ -1,1 +1,3 @@
+ var cnames_active = {
++  "stepcheck": "draarivpatel-ui.github.io", // noCF
++  "taaltrainer": "draarivpatel-ui.github.io", // noCF

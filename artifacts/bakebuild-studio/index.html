@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BakeBuild Studio — CAD workbench</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><p class="eyebrow">BAKEBUILD / PARAMETRIC LAB</p><h1>Small objects. Real solids.</h1><p>Custom cookie cutters and a FuseRing, ready to inspect and export in millimetres.</p></header>
+<main><section class="viewer" aria-label="3D workbench"><div class="toolbar"><label for="design">Design</label><select id="design"></select><button id="reset" type="button">Reset view</button></div><canvas id="preview" tabindex="0" aria-label="Interactive 3D mesh. Drag to rotate, scroll to zoom, or use arrow keys and plus/minus."></canvas><p class="hint">Drag to orbit · Scroll to zoom · Arrow keys to rotate · + / − to zoom</p></section><aside><p class="eyebrow">MODEL INSPECTOR</p><h2 id="model-name"></h2><p id="dimensions"></p><p id="status" role="status" aria-live="polite"></p><ul id="checks"></ul><div class="downloads"><button id="step" type="button">Download .step</button><button id="stl" type="button">Download .stl</button></div><p class="note">Each STEP is one closed planar B-rep; STL has no internal sector interfaces. Silhouettes are deliberately faceted. Food-safe materials and finishing require independent review.</p><a href="exports/manifest.json" download>Download export manifest</a></aside></main>
+<footer>No dependencies. No uploads. All geometry and downloads are generated locally.</footer><script type="module" src="app.js"></script>
+</body></html>

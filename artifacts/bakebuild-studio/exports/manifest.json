@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "generator": "BakeBuild Studio zero-dependency CAD",
+  "units": "mm",
+  "topology": "One connected closed manifold solid per model; no internal faces.",
+  "rules": {
+    "lip": 0.8,
+    "wall": 2,
+    "height": 12.7,
+    "rimWidth": 5,
+    "rimHeight": 2,
+    "holeDiameter": 6,
+    "keyringHeight": 4
+  },
+  "models": [
+    {
+      "id": "orpheus_circuit_crest_cutter",
+      "name": "Orpheus Circuit Crest",
+      "type": "cutter",
+      "units": "mm",
+      "dimensions": [
+        68.76615306181738,
+        69.4063400918451,
+        12.7
+      ],
+      "bounds": {
+        "min": [
+          -31.35421710998559,
+          -34.703170045922555,
+          0
+        ],
+        "max": [
+          37.411935951831786,
+          34.70317004592254,
+          12.7
+        ]
+      },
+      "sections": [
+        {
+          "label": "cutting lip",
+          "bottom": 0,
+          "top": 1.5,
+          "thickness": 0.8
+        },
+        {
+          "label": "main wall",
+          "bottom": 1.5,
+          "top": 10.7,
+          "thickness": 2
+        },
+        {
+          "label": "top handle rim",
+          "bottom": 10.7,
+          "top": 12.7,
+          "thickness": 5
+        }
+      ],
+      "holeDiameter": null,
+      "volume": 5771.079012867645,
+      "solidCount": 1,
+      "triangleCount": 1280,
+      "validation": {
+        "pass": true,
+        "checks": [
+          {
+            "rule": "Maximum envelope",
+            "pass": true,
+            "actual": [
+              68.76615306181738,
+              69.4063400918451,
+              12.7
+            ],
+            "limit": [
+              100,
+              100,
+              100
+            ]
+          },
+          {
+            "rule": "Positive solid volume",
+            "pass": true,
+            "actual": 5771.079012867645
+          },
+          {
+            "rule": "cutting lip thickness",
+            "pass": true,
+            "actual": 0.8,
+            "target": 0.8
+          },
+          {
+            "rule": "main wall thickness",
+            "pass": true,
+            "actual": 2,
+            "target": 2
+          },
+          {
+            "rule": "top handle rim thickness",
+            "pass": true,
+            "actual": 5,
+            "target": 5
+          },
+          {
+            "rule": "Cutter height",
+            "pass": true,
+            "actual": 12.7,
+            "target": 12.7
+          },
+          {
+            "rule": "Handle rim height",
+            "pass": true,
+            "actual": 2,
+            "target": 2
+          }
+        ]
+      },
+      "files": {
+        "step": {
+          "name": "orpheus_circuit_crest_cutter.step",
+          "bytes": 521128,
+          "sha256": "0276e545048cf851ee847d0905b8d2e53ea45d5cc8c9b1191441790e55d91ca6"
+        },
+        "stl": {
+          "name": "orpheus_circuit_crest_cutter.stl",
+          "bytes": 232709,
+          "sha256": "18672e9461953cebb6a7c972941b5bf98a4ca75601932e46f687a39800d116f2"
+        }
+      }
+    },
+    {
+      "id": "hex_gear_logic_gate_cutter",
+      "name": "Hex Gear Logic Gate",
+      "type": "cutter",
+      "units": "mm",
+      "dimensions": [
+        71.6378112687315,
+        65.68904610391692,
+        12.7
+      ],
+      "bounds": {
+        "min": [
+          -35.81890563436574,
+          -32.84452305195846,
+          0
+        ],
+        "max": [
+          35.81890563436575,
+          32.84452305195847,
+          12.7
+        ]
+      },
+      "sections": [
+        {
+          "label": "cutting lip",
+          "bottom": 0,
+          "top": 1.5,
+          "thickness": 0.8
+        },
+        {
+          "label": "main wall",
+          "bottom": 1.5,
+          "top": 10.7,
+          "thickness": 2
+        },
+        {
+          "label": "top handle rim",
+          "bottom": 10.7,
+          "top": 12.7,
+          "thickness": 5
+        }
+      ],
+      "holeDiameter": null,
+      "volume": 5804.620702977844,
+      "solidCount": 1,
+      "triangleCount": 1440,
+      "validation": {
+        "pass": true,
+        "checks": [
+          {
+            "rule": "Maximum envelope",
+            "pass": true,
+            "actual": [
+              71.6378112687315,
+              65.68904610391692,
+              12.7
+            ],
+            "limit": [
+              100,
+              100,
+              100
+            ]
+          },
+          {
+            "rule": "Positive solid volume",
+            "pass": true,
+            "actual": 5804.620702977844
+          },
+          {
+            "rule": "cutting lip thickness",
+            "pass": true,
+            "actual": 0.8,
+            "target": 0.8
+          },
+          {
+            "rule": "main wall thickness",
+            "pass": true,
+            "actual": 2,
+            "target": 2
+          },
+          {
+            "rule": "top handle rim thickness",
+            "pass": true,
+            "actual": 5,
+            "target": 5
+          },
+          {
+            "rule": "Cutter height",
+            "pass": true,
+            "actual": 12.7,
+            "target": 12.7
+          },
+          {
+            "rule": "Handle rim height",
+            "pass": true,
+            "actual": 2,
+            "target": 2
+          }
+        ]
+      },
+      "files": {
+        "step": {
+          "name": "hex_gear_logic_gate_cutter.step",
+          "bytes": 588818,
+          "sha256": "b15f1dabc9046727f5e7e8c9e3c63319b13125a3efb2620020491f75899c1168"
+        },
+        "stl": {
+          "name": "hex_gear_logic_gate_cutter.stl",
+          "bytes": 260397,
+          "sha256": "580d7fa4fceab09e72250ba02307f8ba4a4585122d42f7e13abc6d1c4c61f489"
+        }
+      }
+    },
+    {
+      "id": "stepcheck_sigma_badge_cutter",
+      "name": "Stepcheck Sigma Badge",
+      "type": "cutter",
+      "units": "mm",
+      "dimensions": [
+        70.14754193266715,
+        70.0813416494455,
+        12.7
+      ],
+      "bounds": {
+        "min": [
+          -35.073770966333576,
+          -36.552216779464,
+          0
+        ],
+        "max": [
+          35.073770966333576,
+          33.5291248699815,
+          12.7
+        ]
+      },
+      "sections": [
+        {
+          "label": "cutting lip",
+          "bottom": 0,
+          "top": 1.5,
+          "thickness": 0.8
+        },
+        {
+          "label": "main wall",
+          "bottom": 1.5,
+          "top": 10.7,
+          "thickness": 2
+        },
+        {
+          "label": "top handle rim",
+          "bottom": 10.7,
+          "top": 12.7,
+          "thickness": 5
+        }
+      ],
+      "holeDiameter": null,
+      "volume": 5563.64881994725,
+      "solidCount": 1,
+      "triangleCount": 1280,
+      "validation": {
+        "pass": true,
+        "checks": [
+          {
+            "rule": "Maximum envelope",
+            "pass": true,
+            "actual": [
+              70.14754193266715,
+              70.0813416494455,
+              12.7
+            ],
+            "limit": [
+              100,
+              100,
+              100
+            ]
+          },
+          {
+            "rule": "Positive solid volume",
+            "pass": true,
+            "actual": 5563.64881994725
+          },
+          {
+            "rule": "cutting lip thickness",
+            "pass": true,
+            "actual": 0.8,
+            "target": 0.8
+          },
+          {
+            "rule": "main wall thickness",
+            "pass": true,
+            "actual": 2,
+            "target": 2
+          },
+          {
+            "rule": "top handle rim thickness",
+            "pass": true,
+            "actual": 5,
+            "target": 5
+          },
+          {
+            "rule": "Cutter height",
+            "pass": true,
+            "actual": 12.7,
+            "target": 12.7
+          },
+          {
+            "rule": "Handle rim height",
+            "pass": true,
+            "actual": 2,
+            "target": 2
+          }
+        ]
+      },
+      "files": {
+        "step": {
+          "name": "stepcheck_sigma_badge_cutter.step",
+          "bytes": 521132,
+          "sha256": "615901733bfdc4bf64e5b71f7e9f42a55c361703aec25b7a8e94655d2deecc4b"
+        },
+        "stl": {
+          "name": "stepcheck_sigma_badge_cutter.stl",
+          "bytes": 232817,
+          "sha256": "e066e777a24c2c10e351c191436a4fc20701e9e0d2163ec580b95cc9e55797dc"
+        }
+      }
+    },
+    {
+      "id": "orpheus_fusering_keyring",
+      "name": "Orpheus FuseRing",
+      "type": "keyring",
+      "units": "mm",
+      "dimensions": [
+        53.68447174222556,
+        55.976126711423845,
+        4
+      ],
+      "bounds": {
+        "min": [
+          -23.88447174222556,
+          -27.988063355711922,
+          0
+        ],
+        "max": [
+          29.8,
+          27.988063355711926,
+          4
+        ]
+      },
+      "sections": [
+        {
+          "label": "FuseRing body",
+          "bottom": 0,
+          "top": 4,
+          "thickness": null
+        }
+      ],
+      "holeDiameter": 6,
+      "volume": 8419.951385633056,
+      "solidCount": 1,
+      "triangleCount": 512,
+      "validation": {
+        "pass": true,
+        "checks": [
+          {
+            "rule": "Maximum envelope",
+            "pass": true,
+            "actual": [
+              53.68447174222556,
+              55.976126711423845,
+              4
+            ],
+            "limit": [
+              80,
+              80,
+              6
+            ]
+          },
+          {
+            "rule": "Positive solid volume",
+            "pass": true,
+            "actual": 8419.951385633056
+          },
+          {
+            "rule": "Flat bottom at z = 0",
+            "pass": true,
+            "actual": 0,
+            "target": 0
+          },
+          {
+            "rule": "Carabiner clear hole >= 5 mm",
+            "pass": true,
+            "actual": 6,
+            "target": 5
+          }
+        ]
+      },
+      "files": {
+        "step": {
+          "name": "orpheus_fusering_keyring.step",
+          "bytes": 203760,
+          "sha256": "96451e23d4ccf65fedbe28e5615a45304dbb2676409cc4e606f0c26b89732f75"
+        },
+        "stl": {
+          "name": "orpheus_fusering_keyring.stl",
+          "bytes": 89073,
+          "sha256": "968c19a2aa7c8db8b5b94a797568b7ebbf558301464e845820c4aa533834c1d3"
+        }
+      }
+    }
+  ]
+}

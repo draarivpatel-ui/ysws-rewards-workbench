@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "currency": "USD",
+  "assemblies": 1,
+  "board": {
+    "widthMm": 32,
+    "heightMm": 24,
+    "layers": 2,
+    "areaSquareInches": 1.1904023808047617,
+    "ratePerSquareInch": "5.00",
+    "lotPrice": "5.95",
+    "boardsPerLot": 3
+  },
+  "rows": [
+    {
+      "references": [
+        "U1"
+      ],
+      "partNumber": "ATtiny412-SSNR",
+      "manufacturer": "Microchip Technology",
+      "description": "ATtiny412-SSNR",
+      "quantity": 1,
+      "unitPrice": "1.15",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=ATtiny412-SSNR",
+      "lineTotal": "1.15"
+    },
+    {
+      "references": [
+        "BZ1"
+      ],
+      "partNumber": "CMT-1203-SMT-TR",
+      "manufacturer": "Same Sky (formerly CUI Devices)",
+      "description": "CMT-1203-SMT-TR (piezo)",
+      "quantity": 1,
+      "unitPrice": "2.25",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=CMT-1203-SMT-TR",
+      "lineTotal": "2.25"
+    },
+    {
+      "references": [
+        "D1"
+      ],
+      "partNumber": "LTST-C171KRKT",
+      "manufacturer": "Lite-On",
+      "description": "Red LED",
+      "quantity": 1,
+      "unitPrice": "0.22",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=LTST-C171KRKT",
+      "lineTotal": "0.22"
+    },
+    {
+      "references": [
+        "C1"
+      ],
+      "partNumber": "C0805C104K5RACTU",
+      "manufacturer": "KEMET",
+      "description": "100 nF / 50 V",
+      "quantity": 1,
+      "unitPrice": "0.12",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=C0805C104K5RACTU",
+      "lineTotal": "0.12"
+    },
+    {
+      "references": [
+        "R1",
+        "R2"
+      ],
+      "partNumber": "RC0805FR-0710KL",
+      "manufacturer": "Yageo",
+      "description": "10 kOhm / LED",
+      "quantity": 2,
+      "unitPrice": "0.10",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=RC0805FR-0710KL",
+      "lineTotal": "0.20"
+    },
+    {
+      "references": [
+        "R3",
+        "R4"
+      ],
+      "partNumber": "RC0805FR-07220RL",
+      "manufacturer": "Yageo",
+      "description": "220 Ohm / piezo A",
+      "quantity": 2,
+      "unitPrice": "0.10",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=RC0805FR-07220RL",
+      "lineTotal": "0.20"
+    },
+    {
+      "references": [
+        "SW1"
+      ],
+      "partNumber": "B3U-1000P",
+      "manufacturer": "Omron",
+      "description": "Transmit button",
+      "quantity": 1,
+      "unitPrice": "0.90",
+      "supplier": "Mouser",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.mouser.com/c/?q=B3U-1000P",
+      "lineTotal": "0.90"
+    },
+    {
+      "references": [
+        "J1"
+      ],
+      "partNumber": "M20-9990345",
+      "manufacturer": "Harwin",
+      "description": "3V3 / GND / UPDI",
+      "quantity": 1,
+      "unitPrice": "0.45",
+      "supplier": "DigiKey",
+      "quoteStatus": "unverified-estimate",
+      "sourceUrl": "https://www.digikey.com/en/products/result?keywords=M20-9990345",
+      "lineTotal": "0.45"
+    },
+    {
+      "references": [
+        "TP1"
+      ],
+      "partNumber": "CHIRPKEY8-PCB-V1.0",
+      "manufacturer": "Aariv Patel / OSH Park",
+      "description": "Covered copper touch electrode",
+      "quantity": 0,
+      "unitPrice": "0.00",
+      "supplier": "OSH Park",
+      "quoteStatus": "included-in-PCB",
+      "sourceUrl": "https://docs.oshpark.com/services/two-layer/",
+      "lineTotal": "0.00"
+    },
+    {
+      "references": [
+        "PCB"
+      ],
+      "partNumber": "CHIRPKEY8-PCB-V1.0",
+      "manufacturer": "Aariv Patel / OSH Park",
+      "description": "32 x 24 mm 2-layer prototype lot (3 bare boards)",
+      "quantity": 1,
+      "unitPrice": "5.95",
+      "lineTotal": "5.95",
+      "supplier": "OSH Park",
+      "quoteStatus": "published-area-rate-not-checkout-quote",
+      "sourceUrl": "https://docs.oshpark.com/services/two-layer/",
+      "boardsSupplied": 3
+    }
+  ],
+  "pricing": {
+    "status": "estimate-not-exact-vendor-quote",
+    "partsAndPCB": "11.44",
+    "shippingAllowance": "5.00",
+    "taxAllowance": "0.96",
+    "estimatedTotal": "17.40",
+    "target": "18.40",
+    "grantCap": "35.00",
+    "exactQuoteVerified": false,
+    "disclosure": "Component prices and shipping/tax allowances are planning estimates, not live DigiKey/Mouser quotes. Supplier pages were blocked. OSH Park publishes $5/sq in for THREE boards; 32*24/25.4^2*5 rounds to $5.95 per lot. Refresh checkout quotes before submission or ordering."
+  }
+}

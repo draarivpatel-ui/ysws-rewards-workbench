@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "filename": "chirpkey8.kicad_pro",
+    "version": 1
+  },
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.25
+      },
+      "rules": {
+        "min_clearance": 0.2,
+        "min_track_width": 0.25,
+        "min_via_diameter": 0.65,
+        "min_through_hole_diameter": 0.3,
+        "min_copper_edge_clearance": 0.4,
+        "min_via_annular_width": 0.15,
+        "solder_mask_clearance": 0,
+        "solder_mask_min_width": 0.1016
+      },
+      "rule_severities": {},
+      "track_widths": [
+        0.25,
+        0.4
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.65,
+          "drill": 0.3
+        }
+      ]
+    }
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.65,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "netclass_assignments": {},
+    "netclass_patterns": []
+  },
+  "schematic": {
+    "drawing": {
+      "default_line_thickness": 6,
+      "default_text_size": 50
+    },
+    "meta": {
+      "version": 1
+    }
+  },
+  "sheets": [
+    [
+      "08e30a92-7799-41a6-ac9a-b53e8e5b277e",
+      "ChirpKey-8"
+    ]
+  ],
+  "text_variables": {
+    "PROJECT_NAME": "ChirpKey-8"
+  }
+}

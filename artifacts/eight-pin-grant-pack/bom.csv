@@ -1,0 +1,11 @@
+Reference,Part Number,Manufacturer,Description,Quantity,Unit Price USD,Line Total USD,Supplier,Price Status,Source URL
+"U1","ATtiny412-SSNR","Microchip Technology","ATtiny412-SSNR","1","1.15","1.15","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=ATtiny412-SSNR"
+"BZ1","CMT-1203-SMT-TR","Same Sky (formerly CUI Devices)","CMT-1203-SMT-TR (piezo)","1","2.25","2.25","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=CMT-1203-SMT-TR"
+"D1","LTST-C171KRKT","Lite-On","Red LED","1","0.22","0.22","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=LTST-C171KRKT"
+"C1","C0805C104K5RACTU","KEMET","100 nF / 50 V","1","0.12","0.12","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=C0805C104K5RACTU"
+"R1 R2","RC0805FR-0710KL","Yageo","10 kOhm / LED","2","0.10","0.20","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=RC0805FR-0710KL"
+"R3 R4","RC0805FR-07220RL","Yageo","220 Ohm / piezo A","2","0.10","0.20","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=RC0805FR-07220RL"
+"SW1","B3U-1000P","Omron","Transmit button","1","0.90","0.90","Mouser","unverified-estimate","https://www.mouser.com/c/?q=B3U-1000P"
+"J1","M20-9990345","Harwin","3V3 / GND / UPDI","1","0.45","0.45","DigiKey","unverified-estimate","https://www.digikey.com/en/products/result?keywords=M20-9990345"
+"TP1","CHIRPKEY8-PCB-V1.0","Aariv Patel / OSH Park","Covered copper touch electrode","0","0.00","0.00","OSH Park","included-in-PCB","https://docs.oshpark.com/services/two-layer/"
+"PCB","CHIRPKEY8-PCB-V1.0","Aariv Patel / OSH Park","32 x 24 mm 2-layer prototype lot (3 bare boards)","1","5.95","5.95","OSH Park","published-area-rate-not-checkout-quote","https://docs.oshpark.com/services/two-layer/"
