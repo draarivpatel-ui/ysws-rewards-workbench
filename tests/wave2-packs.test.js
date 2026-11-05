@@ -133,10 +133,15 @@ for(const design of CAD.DESIGNS) {
   });
 }
 
-test('CAD rejects unknown models and export directory contains exactly all nine deliverables',()=>{
+test('CAD rejects unknown models and export directory contains exactly all deliverables',()=>{
   assert.throws(()=>CAD.generate('unknown'),/Unknown design/);
   const names=readdirSync(new URL('../'+bake+'exports/',import.meta.url));
-  assert.deepEqual(names.sort(),['manifest.json',...CAD.DESIGNS.flatMap(d=>[d.id+'.step',d.id+'.stl'])].sort());
+  assert.deepEqual(names.sort(),['manifest.json',...CAD.DESIGNS.flatMap(d=>[d.id+'.step',d.id+'.stl',d.id+'.png'])].sort());
+  for(const design of CAD.DESIGNS){
+    const bytes=readFileSync(new URL('../'+bake+'exports/'+design.id+'.png',import.meta.url));
+    assert.equal(bytes.subarray(1,4).toString('latin1'),'PNG');
+    assert.equal(bytes.subarray(12,16).toString('latin1'),'IHDR');
+  }
 });
 
 test('workbench renders and responds to selection, orbit, zoom, reset and download handlers',()=>{
