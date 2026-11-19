@@ -70,7 +70,6 @@ export function usdCents(value) {
   if (typeof value !== 'string' || !/^\d+\.\d{2}$/.test(value)) throw new Error('USD must have two decimal places');
   const [d, c] = value.split('.'); return BigInt(d) * 100n + BigInt(c);
 }
-export const escapeHTML = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 export function safeSupplierURL(value) {
   const u = new URL(value);
   if (u.protocol !== 'https:' || u.username || u.password || u.port || !['www.digikey.com', 'www.mouser.com', 'docs.oshpark.com'].includes(u.hostname)) throw new Error('Invalid supplier URL');
